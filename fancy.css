@@ -67,3 +67,19 @@
 .wiiiiiiiiiiiiiiiiiide {
 	width: 100%;
 }
+
+.fancy {
+	background-color: #4285f4;
+	color: #fff;
+	padding: 10px;
+	margin: 10px 0;
+	border-radius: 5px;
+  }
+  
+  .rainbowfancy {
+	background: linear-gradient(to right, #ff3366, #ff9933, #33cc33, #3399ff, #cc66ff);
+	color: #fff;
+	padding: 10px;
+	margin: 10px 0;
+	border-radius: 5px;
+  }
