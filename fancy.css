@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f8f8f8;
@@ -25,3 +26,73 @@ h1 {
     color: #343a40;
     text-align: center;
   }
+
+.custom-paragraph {
+    color: rgb(220,20,60); /* Text color in RGB format */
+    font-size: 20px; /* Font size in pixels */
+  }
+
+@keyframes WEEEEEEEEEE {
+	from {
+		rotate: 0;
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.5);
+	}
+
+	to {
+		rotate: 360deg;
+		transform: scale(0.5);
+	}
+}
+
+@keyframes caaaaaaaaaaaaalm {
+	from {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	to {
+		transform: scale(1);
+	}
+}
+
+.shooooooooooooooooooooort {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.looooooooooooooooooooong {
+	width: 10rem;
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-radius: 1rem;
+	overflow: hidden;
+
+	animation: caaaaaaaaaaaaalm 1s linear infinite;
+
+	transition: scale 50ms ease-in-out;
+}
+
+.looooooooooooooooooooong:hover {
+	scale: 1.1;
+	animation: WEEEEEEEEEE 300ms linear infinite;
+	
+	transition: scale 100ms ease-in-out;
+}
+
+.looooooooooooooooooooong:active {
+	scale: 0.2;
+}
+
+
+.wiiiiiiiiiiiiiiiiiide {
+	width: 100%;
+}
+
