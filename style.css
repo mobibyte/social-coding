@@ -5,3 +5,23 @@ body {
       padding: 0;
       color: #333;
     }
+
+h3 {
+      color: #6c757d;
+      text-align: center;
+    }
+
+h2 {
+      color: #343a40;
+      text-align: center;
+    }
+
+h4 {
+      color: #fcba03;
+      text-align: center;
+    }
+
+h1 {
+      color: #343a40;
+      text-align: center;
+    }
