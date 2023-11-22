@@ -96,3 +96,20 @@ h1 {
 	width: 100%;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 5px;
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
