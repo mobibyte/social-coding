@@ -1,4 +1,32 @@
 
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+
+h3 {
+    color: #6c757d;
+    text-align: center;
+  }
+
+h2 {
+    color: #343a40;
+    text-align: center;
+  }
+
+h4 {
+    color: #fcba03;
+    text-align: center;
+  }
+
+h1 {
+    color: #343a40;
+    text-align: center;
+  }
+
 .custom-paragraph {
     color: rgb(220,20,60); /* Text color in RGB format */
     font-size: 20px; /* Font size in pixels */
@@ -67,3 +95,4 @@
 .wiiiiiiiiiiiiiiiiiide {
 	width: 100%;
 }
+
