@@ -1,3 +1,9 @@
+
+.custom-paragraph {
+    color: rgb(220,20,60); /* Text color in RGB format */
+    font-size: 20px; /* Font size in pixels */
+  }
+
 @keyframes WEEEEEEEEEE {
 	from {
 		rotate: 0;
