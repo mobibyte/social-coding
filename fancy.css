@@ -73,10 +73,8 @@ body {
   }
   
   .custom-paragraph {
-    background-color: DodgerBlue;
-    padding: 15px;
-    border-radius: 10px;
-    color: white;
+    color: rgb(220,20,60); /* Text color in RGB format */
+    font-size: 20px; /* Font size in pixels */
   }
   
   .border-box {
