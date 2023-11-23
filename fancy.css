@@ -43,15 +43,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  
-  .rainbowfancy {
-    font-size: 2em;
-    text-align: center;
-    background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
-    -webkit-background-clip: text;
-    color: transparent;
-    padding: 15px;
-  }
+
   
   h3 {
     color: #6c757d;
@@ -102,10 +94,80 @@ body {
     border-radius: 5px;
     cursor: pointer;
   }
-  
-  .wiiiiiiiiiiiiiiiiiide {
-    width: 100%;
-  }
-  
   /* Add more styles as needed */
   
+
+
+@keyframes WEEEEEEEEEE {
+	from {
+		rotate: 0;
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.5);
+	}
+
+	to {
+		rotate: 360deg;
+		transform: scale(0.5);
+	}
+}
+
+@keyframes caaaaaaaaaaaaalm {
+	from {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	to {
+		transform: scale(1);
+	}
+}
+
+.shooooooooooooooooooooort {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.looooooooooooooooooooong {
+	width: 10rem;
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-radius: 1rem;
+	overflow: hidden;
+
+	animation: caaaaaaaaaaaaalm 1s linear infinite;
+
+	transition: scale 50ms ease-in-out;
+}
+
+.looooooooooooooooooooong:hover {
+	scale: 1.1;
+	animation: WEEEEEEEEEE 300ms linear infinite;
+	
+	transition: scale 100ms ease-in-out;
+}
+
+.looooooooooooooooooooong:active {
+	scale: 0.2;
+}
+
+
+.wiiiiiiiiiiiiiiiiiide {
+	width: 100%;
+}
+
+
+  
+  .rainbowfancy {
+	background: linear-gradient(to right, #ff3366, #ff9933, #33cc33, #3399ff, #cc66ff);
+	color: #fff;
+	padding: 10px;
+	margin: 10px 0;
+	border-radius: 5px;
+  }
