@@ -1,5 +1,10 @@
 /* styles.css */
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f8f8f8;
