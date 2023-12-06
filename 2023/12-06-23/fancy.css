@@ -1,0 +1,62 @@
+.body, .h1, .p { /* Reset some default styles*/
+    margin: 0;
+    padding: 0;
+}
+
+body { /*A nice background color and font family to the body */
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+}
+.img {
+    max-width: 800px;
+    margin: 50 px auto;
+    padding: 50 px;
+}
+
+.header-content { /* style the header*/ 
+    background-color: #CDFF9E;
+    padding: 20px;
+    color: #fff;
+    max-width: 800px; 
+    margin: 20 px auto;
+}
+
+.main-content { /*Center the main content */
+    max-width: 800px; 
+    margin: 20 px auto;
+}
+
+
+
+#backButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #59b95c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#backButton:hover {
+    background-color: #217225;
+}
+
+/*Creates a box around the FlickTick portion*/
+.project-container { /*Creates a box around the FlickTick portion*/
+        border: 2px solid #09350f;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 20px 0;
+        background-color: #59b95c;
+}
+
+.project-container {
+    color: #ced9cc;
+    text-decoration: none;
+}
+
+.project-container:hover {
+    text-decoration: underline; 
+}
