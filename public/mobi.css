@@ -58,6 +58,7 @@ nav li {
     margin: 0 15px;
 }
 
+
 #week-link-id {
     display: inline-block;
     background-color: white;
@@ -65,6 +66,7 @@ nav li {
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     opacity: 100%;
+
 }
 
 a {
@@ -75,6 +77,7 @@ a {
 }
 
 a:hover {
+
     color: #0000ff;
 }
 
@@ -83,6 +86,7 @@ a:hover {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+
 }
 
 .rainbowfancy {
@@ -93,15 +97,19 @@ a:hover {
 }
 
 .mininos {
+
     background: linear-gradient(to right, #3c30a2, #695fd7, #070783);
+
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
 }
 
 
+
 .fancy {
     background: linear-gradient(to right, rgb(12, 169, 212), #0072ff);
+
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -119,6 +127,7 @@ a:hover {
   margin: auto;
   font-size: 20px;
   font-weight: bold;
+
 }
 .two {
   grid-column: 2 / 3;
