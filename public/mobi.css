@@ -58,12 +58,15 @@ nav li {
     margin: 0 15px;
 }
 
-.week-link {
+
+#week-link-id {
     display: inline-block;
-    background-color: #fff;
-    padding: 10px 15px;
+    background-color: white;
+    padding: 10px 20px;
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 100%;
+
 }
 
 a {
@@ -74,7 +77,16 @@ a {
 }
 
 a:hover {
-    color: #ffd700;
+
+    color: #0000ff;
+}
+
+.rainbow {
+  background: linear-gradient(to right, #ff7e5f, #feb47b, #fcde90);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
 }
 
 .rainbowfancy {
@@ -85,14 +97,19 @@ a:hover {
 }
 
 .mininos {
-    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+
+    background: linear-gradient(to right, #3c30a2, #695fd7, #070783);
+
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
 }
 
+
+
 .fancy {
-    background: linear-gradient(to right, #00c6ff, #0072ff);
+    background: linear-gradient(to right, rgb(12, 169, 212), #0072ff);
+
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -108,6 +125,9 @@ a:hover {
   grid-column: 2 / 3;
   grid-row: 1;
   margin: auto;
+  font-size: 20px;
+  font-weight: bold;
+
 }
 .two {
   grid-column: 2 / 3;
