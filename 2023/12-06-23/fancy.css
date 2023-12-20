@@ -7,8 +7,8 @@ body { /*A nice background color and font family to the body */
     background-color: #f4f4f4;
     font-family: 'Arial', sans-serif;
 }
-.img {
-    max-width: 800px;
+img {
+    max-width: 200px;
     margin: 50 px auto;
     padding: 50 px;
 }
