@@ -10,13 +10,16 @@ header {
   background: linear-gradient(to right, #1a1a1a, #262626);
   color: #fff;
   text-align: center;
-  padding: 1em 0;
+  margin-top: -30px;
+  padding: 1.5em 0;
+  border-radius: 15px;
 }
 
 .header-content {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 55px;
 }
 
 .logo-in-site {
@@ -48,37 +51,37 @@ p.fancy-text {
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 nav li {
-    margin: 0 15px;
+  margin: 0 15px;
 }
 
 
 #week-link-id {
-    display: inline-block;
-    background-color: white;
-    padding: 10px 20px;
-    border-radius: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    opacity: 100%;
+  display: inline-block;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  opacity: 100%;
 
 }
 
 a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    transition: color 0.3s ease-in-out;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
 }
 
 a:hover {
 
-    color: #0000ff;
+  color: #0000ff;
 }
 
 .rainbow {
@@ -90,29 +93,29 @@ a:hover {
 }
 
 .rainbowfancy {
-    background: linear-gradient(to right, #fd5d93, #fc7842);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+  background: linear-gradient(to right, #fd5d93, #fc7842);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .mininos {
 
-    background: linear-gradient(to right, #3c30a2, #695fd7, #070783);
+  background: linear-gradient(to right, #3c30a2, #695fd7, #070783);
 
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 
 
 .fancy {
-    background: linear-gradient(to right, rgb(12, 169, 212), #0072ff);
+  background: linear-gradient(to right, rgb(12, 169, 212), #0072ff);
 
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .wrapper {
@@ -121,6 +124,7 @@ a:hover {
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
+
 .one {
   grid-column: 2 / 3;
   grid-row: 1;
@@ -129,10 +133,12 @@ a:hover {
   font-weight: bold;
 
 }
+
 .two {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
 }
+
 .three {
   grid-column: 1;
   grid-row: 2 / 5;
