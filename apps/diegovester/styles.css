@@ -1,0 +1,57 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#profile-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#profile-pic {
+    display: block;
+    margin: 0 auto;
+    max-width: 150px;  /* Adjust the size as needed */
+    width: 100%;  /* Ensures the image is responsive */
+    height: auto;
+    border-radius: 50%;
+}
+
+#profile-info {
+    text-align: center;
+}
+
+#customize-btn {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#customize-form {
+    display: none;
+    margin-top: 20px;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
+#save-btn {
+    padding: 10px;
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
