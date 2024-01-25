@@ -20,18 +20,31 @@
   <meta name='twitter:image:alt' content='A design cover of MOBI, A student-led programming community at the University of Texas at Arlington.' />
   <meta name="description" content="MOBI Social Coding Experiment" />
   <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="simple.css">
 </head>
 
 <!-- Most of the fun happens here! -->
 <body>
-    <div class="header-content">
-      <h1>Social Coding</h1>
-    </div>
-    <p>
-      Go to our
-      <a href="https://github.com/mobi-uta/social-coding">GitHub Repository</a>
-      to add some code of your own!
-    </p>
-  </body>
+  <div class="header-content">
+    <h1>Social Coding</h1>
+  </div>
+  <p>
+    Go to our
+    <a href="https://github.com/mobi-uta/social-coding">GitHub Repository</a>
+    to add some code of your own!
+  </p>
+
+  <h2>My First JavaScript</h2>
+ 
+  <button onclick="document.getElementById('myImage').src='Screen 1.png'">Events Screen</button>
+
+  <img id="myImage" src="Screen 1.png" style="width:100px">
+
+  <button onclick="document.getElementById('myImage').src='Screen 2.png'">Reserved Screen</button>
+  
+  <div>
+    <p>Click the buttons to change the image.</p>
+  </div>
+</body>
 
 </html>
