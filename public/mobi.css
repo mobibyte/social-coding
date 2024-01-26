@@ -5,7 +5,38 @@
   src: url("SpaceGrotesk-VariableFont_wght.ttf") format("truetype");
 }
 
+
+/* GENERAL STYLES */ 
+
 div 
 {
   font-family: MOBI;
+}
+
+header {
+  background: linear-gradient(to right, #1a1a1a, #262626);
+  color: #fff;
+  text-align: center;
+  margin-top: -30px;
+  padding: 1.5em 0;
+  border-radius: 15px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to right, #1a1a1a, #262626);
+  color: white;
+  text-align: center;
+}
+
+/* UTILIES */
+
+.logo {
+  border: 3px solid #fff;
+  border-radius: 50%;
+  padding: 10px;
+  height: 80px;
 }
