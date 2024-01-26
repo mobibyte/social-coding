@@ -13,7 +13,7 @@ Social Coding is a super beginner friendly way to get hands-on experience. Learn
 
 Mobi Bytes are videos on our YouTube channel! These *byte* sized videos guarantee you gain a vital new tech skill for your next app.
 
-MavPitch
+Multiple Mobi members have gone on to start their own companies from the funds won at MavPitch
 
 Mobi is active in the hackathon community, attending events across the state of Texas, with active members participating and mentoring in hackathons.
 
