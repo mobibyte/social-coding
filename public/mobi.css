@@ -8,6 +8,15 @@
 
 /* GENERAL STYLES */ 
 
+body {
+  font-family: MOBI;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #3494e6, #ec6ead);
+  color: #fff;
+  text-align: center;
+}
+
 div 
 {
   font-family: MOBI;
@@ -39,4 +48,13 @@ footer {
   border-radius: 50%;
   padding: 10px;
   height: 80px;
+}
+
+.bio-container {
+  background: white;
+  padding: 0.5rem;
+/*   border-radius: 1rem; */
+  transform: rotate(5deg);
+  border: 1px solid black;
+  color: black;
 }
