@@ -1,4 +1,4 @@
-Author's note: Below is information transcribed from the website made for Mobi by Long. The purpose of this markdown file is to preserve the information between iterations of the Mobi website at the discretion of the current administration.  - Diego V.
+Author's note: Below is information transcribed from the website made for Mobi by Long. The purpose of this markdown file is to preserve the information between iterations of the Mobi website for use at the discretion of the current administration.  - Diego V.
 
 A PLACE TO CODE & CHILL  
 Join us and have workshops & socials from industry-hardened pros
