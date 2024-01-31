@@ -46,6 +46,7 @@ div
   height: 20%;
   width: 20%;
   place-items: center;
+  margin-top: 2rem;
 }
 
 
@@ -68,12 +69,23 @@ div
   color: black;
 }
 
+.discord-container {
+  background: violet;
+  padding: 0.5rem;
+  border: 1px solid black;
+  color: black;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
 .io-container {
   background: white;
   padding: 0.5rem;
 /*   border-radius: 1rem; */
   border: 1px solid black;
   color: black;
+  margin-bottom: 5rem;
 }
 
 .io-container img {
