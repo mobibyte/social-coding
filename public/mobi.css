@@ -49,6 +49,15 @@ div
 }
 
 
+.bio-container2 {
+  background: white;
+  padding: 0.5rem;
+/*   border-radius: 1rem; */
+  transform: rotate(5deg);
+  border: 1px solid black;
+  color: black;
+}
+
 .bio-container {
   background: white;
   padding: 0.5rem;
@@ -77,3 +86,6 @@ footer {
   color: white;
   text-align: center;
 }
+
+
+
