@@ -16,7 +16,6 @@ async function getQuote(){
 inputElement.addEventListener("input", e => {
   let char = e.data;
   if(char == ' '){
-    console.log("Checking Spelling");
     let currentWord = inputElement.value;
     currentWord = currentWord.replace(/\s+/g, '');
     if(currentWord == words[0]){
