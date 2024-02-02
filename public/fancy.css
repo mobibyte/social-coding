@@ -5,7 +5,9 @@ https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing#do
 
 /* GENERAL STYLES */
 
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 a {
   text-decoration: none;
