@@ -1,12 +1,10 @@
 /* SITEWIDE */
-@font-face 
-{
+@font-face {
   font-family: "MOBI";
   src: url("SpaceGrotesk-VariableFont_wght.ttf") format("truetype");
 }
 
-
-/* GENERAL STYLES */ 
+/* GENERAL STYLES */
 
 body {
   font-family: MOBI;
@@ -17,14 +15,12 @@ body {
   text-align: center;
 }
 
-div 
-{
+div {
+  margin-top: 30px;
   font-family: MOBI;
 }
 
 /* UTILIES */
-
-
 
 .wrapper {
   min-height: var(--wrapper-height);
@@ -38,7 +34,6 @@ div
   margin: 0 auto;
 }
 
-
 .logo {
   border: 3px solid #fff;
   border-radius: 50%;
@@ -49,7 +44,6 @@ div
   margin-top: 2rem;
 }
 
-
 .ellipse {
   border: 3px solid #fff;
   border-radius: 50%;
@@ -59,11 +53,10 @@ div
   place-items: center;
 }
 
-
 .bio-container {
   background: white;
   padding: 0.5rem;
-/*   border-radius: 1rem; */
+  /*   border-radius: 1rem; */
   transform: rotate(5deg);
   border: 1px solid black;
   color: black;
@@ -87,7 +80,7 @@ div
 .io-container {
   background: white;
   padding: 0.5rem;
-/*   border-radius: 1rem; */
+  /*   border-radius: 1rem; */
   border: 1px solid black;
   color: black;
   margin-bottom: 5rem;
@@ -125,8 +118,4 @@ footer {
   background: linear-gradient(to right, #1a1a1a, #262626);
   color: white;
   text-align: center;
-  
 }
-
-
-
