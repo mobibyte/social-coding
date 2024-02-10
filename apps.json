@@ -39,6 +39,11 @@
       "name": "Egg App",
       "link": "https://github.com/diegovester/egg",
       "coverImg": "path/to/egg_app_image.jpg"
+    },
+    {
+      "name": "MOMO",
+      "link": "apps/momo/index.html",
+      "coverImg": "path/to/momo_image.jpg"
     }
   ]
 }

@@ -4,7 +4,7 @@ let apps = [
     "link": "apps/diegovester/diego.html",
     "coverImg": "https://images.unsplash.com/photo-1582053433976-25c00369fc93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80",
     "author": "Diego Vester",
-    "authorImg":"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" 
+    "authorImg":"https://diegovester.github.io/egg/" 
   },
   {
     "title": "Trevor's App",
@@ -54,8 +54,15 @@ let apps = [
     "coverImg": "assets/appImages/EggApp.png",
     "author": "Diego Vester",
     "authorImg": "https://github.com/diegovester.png"
-  
+  },
+  {
+    "title": "MOMO App",
+    "link": "apps/MOMO/index.html",
+    "coverImg": "assets/appImages/MOMO.png",
+    "author": "MOMO",
+    "authorImg": "https://github.com/diegovester.png"
   }
+
 ];
 
 function newApp(app){
