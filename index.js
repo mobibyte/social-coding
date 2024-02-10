@@ -47,6 +47,14 @@ let apps = [
     "coverImg": "assets/appImages/TypingTestCoverImg.PNG",
     "author": "Rodrigo Munoz",
     "authorImg":"https://avatars.githubusercontent.com/u/65474436?v=4" 
+  },
+  {
+    "title": "Egg App",
+    "link": "https://diegovester.github.io/egg/",
+    "coverImg": "assets/appImages/EggApp.png",
+    "author": "Diego Vester",
+    "authorImg": "https://github.com/diegovester.png"
+  
   }
 ];
 

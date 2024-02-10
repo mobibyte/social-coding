@@ -34,6 +34,11 @@
       "name": "MOBI Typing Test",
       "link": "apps/TypingTest/index.html",
       "coverImg": "path/to/typing_test_image.jpg"
+    },
+    {
+      "name": "Egg App",
+      "link": "https://github.com/diegovester/egg",
+      "coverImg": "path/to/egg_app_image.jpg"
     }
   ]
 }
