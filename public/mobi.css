@@ -119,3 +119,10 @@ footer {
   color: white;
   text-align: center;
 }
+
+.navi {
+  text-decoration: none;
+  color: white;
+  display: inline;
+  margin: 1%;
+}
