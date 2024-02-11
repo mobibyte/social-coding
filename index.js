@@ -55,6 +55,13 @@ let apps = [
     "author": "Diego Vester",
     "authorImg": "https://github.com/diegovester.png"
   
+  },
+  {
+    "title": "URL Shortener",
+    "link": "apps/virajs/index.html",
+    "coverImg": "assets/appImages/URL_Shortner_img.jpeg",
+    "author": "Viraj Sabhaya",
+    "authorImg": "https://avatars.githubusercontent.com/u/65474436?v=4"
   }
 ];
 
