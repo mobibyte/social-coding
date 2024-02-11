@@ -1,35 +1,23 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+h1 {
+    color:white;
 }
 
 body{
-    background-color: purple;
+    background-color: black;
 }
 
 .rotating-box {
     width: 100px;
     height: 100px;
-    margin: 150px auto;
-    perspective: 800px;
+    margin: 100px auto;
 }
 
 .single-rb {
-    width: 100px;
-    height: 100px;
-    transform-style: preserve-3d;
     animation: rotate 5s linear infinite;
-    position: relative;
 }
 
-.single-rb img{
-    height: 100px;
-    width: 100px;
-}
 
 .single-rb div {
-    position: absolute;  
     width: 100px;
     height: 100px;
     background-color: grey;

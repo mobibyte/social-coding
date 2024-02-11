@@ -65,12 +65,12 @@ let apps = [
     authorImg: "https://github.com/diegovester.png",
   },
   {
-    title: "MOMO App",
-    link: "apps/MOMO/index.html",
-    coverImg: "assets/appImages/MOMO.png",
-    author: "MOMO",
-    authorImg: "https://github.com/diegovester.png",
-  },
+    "title": "MOMO 2D",
+    "link": "apps/MOMO2D/index.html",
+    "coverImg": "assets/appImages/MOMO2D.png",
+    "author": "Diego Vester",
+    "authorImg": "https://github.com/diegovester.png"
+  }
 ];
 
 function newApp(app) {
