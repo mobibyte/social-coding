@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: blue;
+    background-color: purple;
 }
 
 .rotating-box {
@@ -19,6 +19,8 @@ body{
     width: 100px;
     height: 100px;
     transform-style: preserve-3d;
+    animation: rotate 5s linear infinite;
+    position: relative;
 }
 
 .single-rb img{
@@ -34,6 +36,7 @@ body{
     box-shadow: inset 0px 0px 70px green;
     border: 1px solid black;
 }
+
 
 @keyframes rotate {
     0%{
