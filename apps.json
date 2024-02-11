@@ -41,6 +41,10 @@
       "coverImg": "path/to/egg_app_image.jpg"
     },
     {
+      "name": "URL Shortener",
+      "link": "apps/virajs/index.html",
+      "coverImg": "path/to/URL_Shortner_img.jpeg"
+    },
       "name": "MOMO",
       "link": "apps/momo/index.html",
       "coverImg": "path/to/momo_image.jpg"
