@@ -69,7 +69,14 @@ let apps = [
     "link": "apps/MOMO2D/index.html",
     "coverImg": "assets/appImages/MOMO2D.png",
     "author": "Diego Vester",
-    "authorImg": "https://github.com/diegovester.png"
+    "authorImg": "https://github.com/diegovester.png" 
+  },
+  {
+    "title": "URL Shortener",
+    "link": "apps/virajs/index.html",
+    "coverImg": "assets/appImages/URL_Shortner_img.jpeg",
+    "author": "Viraj Sabhaya",
+    "authorImg": "https://avatars.githubusercontent.com/u/65474436?v=4"
   }
 ];
 
