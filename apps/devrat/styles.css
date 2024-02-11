@@ -1,5 +1,5 @@
 body {
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #fdee6c;
@@ -44,4 +44,16 @@ footer {
   bottom: 0;
   width: 100%;
   color: #fff;
+}
+
+.to-do-list {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.to-do-list:hover {
+  color: #0008ff;
 }
