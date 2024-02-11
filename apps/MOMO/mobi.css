@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blue;
+}
+
+.rotating-box {
+    width: 100px;
+    height: 100px;
+    margin: 150px auto;
+    perspective: 800px;
+}
+
+.single-rb {
+    width: 100px;
+    height: 100px;
+    transform-style: preserve-3d;
+}
+
+.single-rb img{
+    height: 100px;
+    width: 100px;
+}
+
+.single-rb div {
+    position: absolute;  
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    box-shadow: inset 0px 0px 70px green;
+    border: 1px solid black;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    100%{
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
