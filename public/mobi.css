@@ -157,6 +157,13 @@ footer {
   margin: 1%;
   transition: color 0.3s ease;
 }
+.navi-line {
+  text-decoration: none;
+  color: white;
+  display: inline;
+  margin: 1%;
+  cursor: default;
+}
 
 .navi:hover {
   color: violet;
