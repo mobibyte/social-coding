@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif, Arial;
   margin: 0;
   padding: 0;
   background-color: #fdee6c;
@@ -46,14 +46,9 @@ footer {
   color: #fff;
 }
 
-.to-do-list {
-  font-size: 20px;
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
-
-.to-do-list:hover {
-  color: #0008ff;
+.to-dolist {
+  background-color: white;
+  padding: 14px 40px;
+  color: black;
+  border: 2px solid #04aa6d;
 }

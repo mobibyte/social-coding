@@ -5,7 +5,7 @@ let apps = [
     coverImg:
       "https://images.unsplash.com/photo-1582053433976-25c00369fc93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80",
     author: "Diego Vester",
-    authorImg: "https://diegovester.github.io/egg/",
+    authorImg: "https://github.com/diegovester.png",
   },
   {
     title: "Trevor's App",
@@ -27,10 +27,9 @@ let apps = [
     title: "Dog App",
     link: "apps/dog_app/mobi.html",
     coverImg:
-      "https://images.unsplash.com/photo-1582053433976-25c00369fc93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80",
-    author: "Anonymous",
-    authorImg:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "https://images.unsplash.com/photo-1546238232-20216dec9f72?q=80&w=2368&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    author: "Devrat",
+    authorImg: "./apps/devrat/kevin_minion.png",
   },
   {
     title: "Pepsi's App...?",
@@ -65,11 +64,11 @@ let apps = [
     authorImg: "https://github.com/diegovester.png",
   },
   {
-    "title": "MOMO 2D",
-    "link": "apps/MOMO2D/index.html",
-    "coverImg": "assets/appImages/MOMO2D.png",
-    "author": "Diego Vester",
-    "authorImg": "https://github.com/diegovester.png" 
+    title: "MOMO 2D",
+    link: "apps/MOMO2D/index.html",
+    coverImg: "assets/appImages/MOMO2D.png",
+    author: "Diego Vester",
+    authorImg: "https://github.com/diegovester.png",
   },
   {
     "title": "URL Shortener",
