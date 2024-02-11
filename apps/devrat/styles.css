@@ -3,6 +3,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: #fdee6c;
+  height: 100%;
+  width: 100%;
 }
 
 header {
@@ -32,7 +34,6 @@ img {
 
 p {
   font-size: 1.2em;
-  color: #333;
   text-align: center;
 }
 
@@ -46,9 +47,18 @@ footer {
   color: #fff;
 }
 
-.to-dolist {
+.to-do-list {
   background-color: white;
-  padding: 14px 40px;
   color: black;
-  border: 2px solid #04aa6d;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 3px solid #1e7cbb;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.to-do-list:hover {
+  transform: scale(1.1);
 }
