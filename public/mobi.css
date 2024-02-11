@@ -125,4 +125,9 @@ footer {
   color: white;
   display: inline;
   margin: 1%;
+  transition: color 0.3s ease;
+}
+
+.navi:hover {
+  color: violet;
 }
