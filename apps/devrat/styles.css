@@ -59,6 +59,13 @@ footer {
   color: #fff;
 }
 
+.apps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 .to-do-list {
   background-color: white;
   color: black;
@@ -69,6 +76,22 @@ footer {
   border: 3px solid #1e7cbb;
   border-radius: 20px;
   transition: all 0.3s ease;
+}
+
+.new-year-counter {
+  background-color: white;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 3px solid #1e7cbb;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.new-year-counter:hover {
+  transform: scale(1.1);
 }
 
 .to-do-list:hover {
