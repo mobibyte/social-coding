@@ -1,8 +1,22 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
-#countdown {
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#timer {
   font-size: 2rem;
   margin-top: 50px;
 }
