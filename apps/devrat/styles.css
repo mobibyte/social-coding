@@ -7,6 +7,18 @@ body {
   width: 100%;
 }
 
+.heading {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.minion-logo {
+  width: 100px;
+  height: auto;
+}
+
 header {
   background-color: #3498db;
   padding: 20px;
