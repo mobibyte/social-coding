@@ -1,5 +1,5 @@
 body {
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: Helvetica, sans-serif, Arial;
   margin: 0;
   padding: 0;
   background-color: #fdee6c;
@@ -44,4 +44,11 @@ footer {
   bottom: 0;
   width: 100%;
   color: #fff;
+}
+
+.to-dolist {
+  background-color: white;
+  padding: 14px 40px;
+  color: black;
+  border: 2px solid #04aa6d;
 }

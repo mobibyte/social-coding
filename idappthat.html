@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>MOBI | Projects</title>
-    <link rel="icon" href="../../public/og-image.png" />
+    <link rel="icon" href="../../public/mobi logo round.png" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="og:site_name" content="MOBI" />
     <meta name="og:type" content="website" />
@@ -28,37 +28,31 @@
     />
     <meta name="description" content="MOBI Social Coding Experiment" />
     <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="./public/output.css" />
   </head>
 
   <!-- Most of the fun happens here! -->
   <body>
-    <div class="header-content">
-      <h1>Apps</h1>
+    <!-- HEADER -->
+    <div class="bg-gray-900 px-6 py-24 sm:py-32 lg:px-8">
+      <div class="mx-auto max-w-2xl text-center">
+        <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+          Social Coding
+        </h2>
+        <p class="mt-6 text-lg leading-8 text-gray-300">
+          🚀 Join Our Social Coding Sessions! Unleash Your Coding Creativity! 🚀
+        </p>
+      </div>
     </div>
-    <p>Apps made by our members!</p>
-    <p>
-      Go to our
-      <a href="https://github.com/mobi-uta/social-coding">GitHub Repository</a>
-      to add some code of your own!
-    </p>
 
-    <h2>Diego's App</h2>
-    <a href="apps/diegovester/diego.html">Click here</a>
-
-    <br />
-    <h2>Trevor's App</h2>
-    <a href="apps/trevorddr5/trevy.html">Click here</a>
-
-    <h2>Minion's Abode</h2>
-    <a href="apps/devrat/devrat.html">Click here to go to Minions's Abode</a>
-
-    <h2>Dog App</h2>
-    <a href="apps/dog_app/mobi.html">Click here</a>
-
-    <h2>Pepsi's App...?</h2>
-    <a href="apps/pepsi/pepsi.html">Click here to visit the vending machine</a>
-
-    <h2>Mohammad's App</h2>
-    <a href="apps/mohammad10/indez.html">Click here!</a>
+    <h1 class="font-bold text-4xl m-5">Project Gallery</h1>
+    <ul
+      id="appsContainer"
+      role="list"
+      class="m-10 grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8"
+    >
+      <!-- add your app to the app.json file :) -->
+    </ul>
   </body>
+  <script src="index.js"></script>
 </html>
