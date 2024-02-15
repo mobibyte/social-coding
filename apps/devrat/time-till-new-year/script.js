@@ -1,20 +1,32 @@
-var countDownDate = new Date("Jan 1, 2025 00:00:00").getTime();
+const daysEl = document.getElementById("days");
+const hoursEl = document.getElementById("hours");
+const minsEl = document.getElementById("mins");
+const secondsEl = document.getElementById("seconds");
 
-var countdownFunction = setInterval(function () {
-  var now = new Date().getTime();
+const newYears = "1 Jan 2021";
 
-  var distance = countDownDate - now;
+function countdown() {
+  const newYearsDate = new Date(newYears);
+  const currentDate = new Date();
 
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  const totalSeconds = (newYearsDate - currentDate) / 1000;
 
-  document.getElementById("timer").innerHTML =
-    days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+  const days = Math.floor(totalSeconds / 3600 / 24);
+  const hours = Math.floor(totalSeconds / 3600) % 24;
+  const mins = Math.floor(totalSeconds / 60) % 60;
+  const seconds = Math.floor(totalSeconds) % 60;
 
-  if (distance < 0) {
-    clearInterval(countdownFunction);
-    document.getElementById("timer").innerHTML = "Happy New Year!";
-  }
-}, 1000);
+  daysEl.innerHTML = days;
+  hoursEl.innerHTML = formatTime(hours);
+  minsEl.innerHTML = formatTime(mins);
+  secondsEl.innerHTML = formatTime(seconds);
+}
+
+function formatTime(time) {
+  return time < 10 ? `0${time}` : time;
+}
+
+// initial call
+countdown();
+
+setInterval(countdown, 1000);
