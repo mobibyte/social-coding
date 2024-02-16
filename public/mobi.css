@@ -41,8 +41,9 @@ body {
   font-family: MOBI;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, #3494e6, #ec6ead);
-  color: #fff;
+  /* background: linear-gradient(to right, #3494e6, #ec6ead); */
+  background: #2A1A27;
+  color: var(--green3);
   text-align: center;
 }
 
@@ -167,17 +168,24 @@ footer {
   text-align: center;
 }
 
-.events {
+.calendar-div > .events {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 30%;
 }
 
-.event {
+.event{
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.event > .gb::after{
+  margin-bottom: 10px;
 }
 
 .event-name {
@@ -185,19 +193,29 @@ footer {
   text-transform: uppercase;
 }
 
-.event-date {
+.event-date, .event-location {
   font-style: italic;
 }
 
-.event-location {
-  font-style: italic;
-}
-
-.event.online::after {
-  content: "Online";
+/* .event.online::after {
+  content: "ONLINE";
   background-color: var(--red);
-  color: white;
+  color: black;
   padding: 3px 6px;
   border-radius: 3px;
   margin-left: 10px;
+} */
+
+.overlay-text{
+  background-color: var(--red);
+  letter-spacing: 1px;;
+  color: black;
+  padding: 3px 6px;
+  font-size: var(--smaller-font-size);
+  font-weight: bold;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 40%;
+  left:28%;
+  rotate: 10deg;
 }
