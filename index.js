@@ -71,6 +71,13 @@ let apps = [
     authorImg: "https://github.com/diegovester.png",
   },
   {
+    title: "Bob",
+    link: "apps/Bob/index.html",
+    coverImg: "",
+    author: "Iyanu",
+    authorImg: "",
+  },
+  {
     "title": "URL Shortener",
     "link": "apps/virajs/index.html",
     "coverImg": "assets/appImages/URL_Shortner_img.jpeg",
