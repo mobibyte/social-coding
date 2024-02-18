@@ -83,7 +83,14 @@ let apps = [
     "coverImg": "assets/appImages/URL_Shortner_img.jpeg",
     "author": "Viraj Sabhaya",
     "authorImg": "https://avatars.githubusercontent.com/u/65474436?v=4"
-  }
+  },
+  {
+    title: "Base Converter",
+    link: "apps/base_convert/index.html",
+    coverImg: "",
+    author: "Betim Hodza",
+    authorImg: "",
+  },
 ];
 
 function newApp(app) {
