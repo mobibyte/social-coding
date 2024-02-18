@@ -7,13 +7,30 @@
 </head>
     <body>
         <div class="main">
-            <p>Base Converter</p>
+            <h1>Base Converter</h1>
             <!--Input-->
-            <div class="input"></div>
+            <p>Enter a number</p>
+            <input type="text" class="input"></input>
             <!--From Base-->
-            <div class="from-base"></div>
+            <div class="from-base">
+                <label for="base">From Base:</label>
+                <select name="base" id="base">
+                    <option value="2">2 (Binary)</option>
+                    <option value="8">8 (Octal)</option>
+                    <option value="10"selected>10 (Decimal)</option>
+                    <option value="16">16 (Hexadecmial)</option>
+                </select>
+            </div>
             <!--To Base-->
-            <div class="to-base"></div>
+            <div class="to-base">
+                <label for="base">To Base:</label>
+                <select name="base" id="base">
+                    <option value="2" selected>2 (Binary)</option>
+                    <option value="8">8 (Octal)</option>
+                    <option value="10">10 (Decimal)</option>
+                    <option value="16">16 (Hexadecmial)</option>
+                </select>
+            </div>
             <!--Output-->
             <div class="output"></div>
         </div>
