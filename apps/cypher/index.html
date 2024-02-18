@@ -8,26 +8,59 @@
   <link rel="stylesheet" href="styles.css" />
   <body>
     <h1>Git cheatsheet</h1>
+    <p>Regularly used commands for day to day operations</p>
+    <h2>Commands</h2>
     <table>
       <tr>
         <th>Command</th>
         <th>Description</th>
       </tr>
       <tr>
-        <td>git clone url</td>
+        <td>git clone [url]</td>
         <td>Clone a repository</td>
+      </tr>
+      <tr>
+        <td>git add [path of file]</td>
+        <td>stages file created/updated</td>
+      </tr>
+      <tr>
+        <td>git commit -m "message"</td>
+        <td>Commits the staged file to repository with a message</td>
       </tr>
     </table>
     <br />
     <br />
+    <h2>Conventional commits</h2>
+    <table>
+      <tr>
+        <th>Commit type</th>
+        <th>Defintion</th>
+        <th>Example</th>
+        <tr><td>feat</td>
+        <td>Highlights that a feature has been added to an implementation</td>
+    <td>git commit -m "feat: added square root (sqrt) operation to calculator app"</td></tr>
+      </tr>
+    </table>
+    <br><br>
+    <h2>Thesaurus</h2>
     <table>
       <tr>
         <th>Name</th>
-        <th>Defintiion</th>
+        <th>Defintion</th>
       </tr>
       <tr>
         <td>Clone</td>
         <td>Make a copy of the original</td>
+      </tr>
+      <tr>
+        <td>Stage</td>
+        <td>Preparing changes in file or directory to be commited</td>
+      </tr>
+      <tr>
+        <td>Commit</td>
+        <td>
+          Freeze changes added/made with a message 
+        </td>
       </tr>
     </table>
   </body>
