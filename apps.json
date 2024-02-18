@@ -45,9 +45,14 @@
       "link": "apps/virajs/index.html",
       "coverImg": "path/to/URL_Shortner_img.jpeg"
     },
+    {
+      "name": "Base Converter",
+      "link": "apps/BaseConverter/index.html",
+      "coverImg": "path/to/momo_image.jpg"
+    },
       "name": "MOMO",
       "link": "apps/momo/index.html",
       "coverImg": "path/to/momo_image.jpg"
-    }
+    },
   ]
 }
