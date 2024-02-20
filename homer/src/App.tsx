@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://codewith.mobi" target="_blank">
+        <a href="https://discord.com/invite/DNxUFtJsng" target="_blank">
           <img src={mobiLogo} className="logo mobi" alt="Mobi logo" />
         </a>
       </div>
@@ -16,7 +16,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Mobi logo to learn more
+        Click on the Mobi logo to join our Discord
       </p>
     </>
   )
