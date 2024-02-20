@@ -10,5 +10,5 @@ export default defineConfig({
    * then set base to '/<REPO>/'.
    * https://vitejs.dev/guide/static-deploy#github-pages
    */
-  base: '/my-vite-app/',
+  base: '/social-coding/',
 })
