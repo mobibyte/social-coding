@@ -10,5 +10,10 @@ export default defineConfig({
    * then set base to '/<REPO>/'.
    * https://vitejs.dev/guide/static-deploy#github-pages
    */
-  base: '/social-coding/',
+
+  /* IMPORTANT HERE: 
+  If you are deploying to https://<USERNAME>.github.io/,
+  or to a custom domain through GitHub Pages (eg. www.example.com), set base to '/'. 
+  Alternatively, you can remove base from the configuration, as it defaults to '/'.
+  */
 })
