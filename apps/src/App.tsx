@@ -18,16 +18,6 @@ function App() {
       <p className="read-the-docs">
         Click on the Mobi logo to join our Discord
       </p>
-      <p>
-        <a href="../dog_app/mobi.html">
-          Click here for dog app
-        </a>
-      </p>
-      <p>
-        <a href="./dog_app/mobi.html">
-          Click here for dog app
-        </a>
-      </p>
     </>
   )
 }
