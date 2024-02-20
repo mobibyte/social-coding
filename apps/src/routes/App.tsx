@@ -1,4 +1,4 @@
-import mobiLogo from './assets/mobi.png'
+import mobiLogo from '../assets/mobi.png'
 import './App.css'
 
 function App() {
