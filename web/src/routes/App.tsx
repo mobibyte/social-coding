@@ -10,6 +10,7 @@ function App() {
         </a>
       </div>
       <h1>Mobi</h1>
+      <h2>web version</h2>
       <div className="card">
         <p>
           Discover the magic of making apps!
