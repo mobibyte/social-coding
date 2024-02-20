@@ -23,6 +23,11 @@ function App() {
           Click here for dog app
         </a>
       </p>
+      <p>
+        <a href="./dog_app/mobi.html">
+          Click here for dog app
+        </a>
+      </p>
     </>
   )
 }
