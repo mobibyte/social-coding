@@ -98,6 +98,14 @@ let apps = [
     author: "Srikeerthi",
     authorImg: "",
   },
+  {
+    title: "GitHub 101",
+    link: "https://youtu.be/N12wZBzG4Hw?si=ClxmD9IcKej0Gtpp",
+    coverImg: "assets/appImages/GitHub101.png",
+    author: "Devrat",
+    authorImg: "./apps/devrat/kevin_minion.png",
+  },
+  
 ];
 
 function newApp(app) {

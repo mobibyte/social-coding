@@ -53,6 +53,6 @@
       "name": "MOMO",
       "link": "apps/momo/index.html",
       "coverImg": "path/to/momo_image.jpg"
-    },
+    }
   ]
 }
