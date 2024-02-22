@@ -17,7 +17,7 @@
     },
     {
       "name": "Dog App",
-      "link": "apps/dog_app/mobi.html",
+      "link": "../apps/dog_app/mobi.html",
       "coverImg": "path/to/dog_app_image.jpg"
     },
     {
