@@ -93,7 +93,7 @@ let apps = [
   },
   {
     title: "Git Cheatsheet",
-    link: "apps/git_cheatsheet/index.html",
+    link: "../apps/git_cheatsheet/index.html",
     coverImg: "assets/appImages/git.png",
     author: "Srikeerthi",
     authorImg: "",
