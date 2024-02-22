@@ -19,6 +19,11 @@
         <td>git clone [url]</td>
         <td>Clone a repository</td>
       </tr>
+      <tr></tr>
+      <tr>
+        <td>git status</td>
+        <td>Show modified files in directory, staged for commit</td>
+      </tr>
       <tr>
         <td>git add [path of file]</td>
         <td>stages file created/updated</td>
@@ -27,7 +32,18 @@
         <td>git commit -m "message"</td>
         <td>Commits the staged file to repository with a message</td>
       </tr>
+      <tr>
+        <td>git push [alias] [branch]</td>
+        <td>
+          Push local changes in the machine to the repository on the internet
+        </td>
+      </tr>
+      <tr>
+        <td>git stash</td>
+        <td>Save modified and staged changes</td>
+      </tr>
     </table>
+
     <br />
     <br />
     <h2>Conventional commits</h2>
@@ -36,12 +52,18 @@
         <th>Commit type</th>
         <th>Defintion</th>
         <th>Example</th>
-        <tr><td>feat</td>
+      </tr>
+
+      <tr>
+        <td>feat</td>
         <td>Highlights that a feature has been added to an implementation</td>
-    <td>git commit -m "feat: added square root (sqrt) operation to calculator app"</td></tr>
+        <td>
+          git commit -m "feat: added square root (sqrt) operation to calculator
+          app"
+        </td>
       </tr>
     </table>
-    <br><br>
+    <br /><br />
     <h2>Thesaurus</h2>
     <table>
       <tr>
@@ -58,9 +80,7 @@
       </tr>
       <tr>
         <td>Commit</td>
-        <td>
-          Freeze changes added/made with a message 
-        </td>
+        <td>Freeze changes added/made with a message</td>
       </tr>
     </table>
   </body>
