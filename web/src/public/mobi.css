@@ -70,10 +70,9 @@ div {
   border: 3px solid #fff;
   border-radius: 50%;
   padding: 10px;
-  height: 20%;
-  width: 20%;
+  height: 10%;
+  width: 10%;
   place-items: center;
-  margin-top: 2rem;
 }
 
 .ellipse {
