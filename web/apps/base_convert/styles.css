@@ -1,0 +1,24 @@
+body {
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #171717;
+}
+
+.main {
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.main p {
+    margin-top: 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
