@@ -3,36 +3,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Base Converter</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
     <body>
         <div class="main">
             <h1>Base Converter</h1>
-            <!--Input-->
-            <p>Enter a number</p>
-            <input type="text" class="input"></input>
-            <!--From Base-->
-            <div class="from-base">
-                <label for="base">From Base:</label>
-                <select name="base" id="base">
-                    <option value="2">2 (Binary)</option>
-                    <option value="8">8 (Octal)</option>
-                    <option value="10"selected>10 (Decimal)</option>
-                    <option value="16">16 (Hexadecmial)</option>
-                </select>
-            </div>
-            <!--To Base-->
-            <div class="to-base">
-                <label for="base">To Base:</label>
-                <select name="base" id="base">
-                    <option value="2" selected>2 (Binary)</option>
-                    <option value="8">8 (Octal)</option>
-                    <option value="10">10 (Decimal)</option>
-                    <option value="16">16 (Hexadecmial)</option>
-                </select>
-            </div>
-            <!--Output-->
-            <div class="output"></div>
+            <form>
+                <label for="input-number">Enter a number:</label>
+                <input type="text" id="input-number" required>
+                <br>
+                <div class="from-base">
+                    <label for="from-base">From Base:</label>
+                    <select name="from-base" id="from-base" required>
+                        <option value="2">2 (Binary)</option>
+                        <option value="8">8 (Octal)</option>
+                        <option value="10" selected>10 (Decimal)</option>
+                        <option value="16">16 (Hexadecimal)</option>
+                    </select>
+                </div>
+                <div class="to-base">
+                    <label for="to-base">To Base:</label>
+                    <select name="to-base" id="to-base" required>
+                        <option value="2">2 (Binary)</option>
+                        <option value="8">8 (Octal)</option>
+                        <option value="10">10 (Decimal)</option>
+                        <option value="16">16 (Hexadecimal)</option>
+                    </select>
+                </div>
+                <br>
+                <output id="output"></output>
+                <br>
+                <button type="submit">Convert</button>
+            </form>
         </div>
     
         <script src="script.js"></script>
