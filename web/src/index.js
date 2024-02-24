@@ -1,7 +1,7 @@
 let apps = [
   {
     title: "Diego's App",
-    link: "apps/diegovester/diego.html",
+    link: "../apps/diegovester/diego.html",
     coverImg:
       "https://images.unsplash.com/photo-1582053433976-25c00369fc93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80",
     author: "Diego Vester",
@@ -9,7 +9,7 @@ let apps = [
   },
   {
     title: "Trevor's App",
-    link: "apps/trevorddr5/trevy.html",
+    link: "../apps/trevorddr5/trevy.html",
     coverImg:
       "https://images.unsplash.com/photo-1582053433976-25c00369fc93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80",
     author: "Trevor DDR5",
@@ -18,31 +18,31 @@ let apps = [
   },
   {
     title: "Minion's Abode",
-    link: "apps/devrat/devrat.html",
-    coverImg: "./apps/devrat/bg.jpg",
+    link: "../apps/devrat/devrat.html",
+    coverImg: "../apps/devrat/bg.jpg",
     author: "Devrat",
-    authorImg: "./apps/devrat/kevin_minion.png",
+    authorImg: "../apps/devrat/kevin_minion.png",
   },
   {
     title: "Dog App",
-    link: "apps/dog_app/mobi.html",
+    link: "../apps/dog_app/mobi.html",
     coverImg:
       "https://images.unsplash.com/photo-1546238232-20216dec9f72?q=80&w=2368&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     author: "Devrat",
-    authorImg: "./apps/devrat/kevin_minion.png",
+    authorImg: "../apps/devrat/kevin_minion.png",
   },
   {
     title: "Pepsi's App...?",
-    link: "apps/pepsi/pepsi.html",
+    link: "../apps/pepsi/pepsi.html",
     coverImg:
-      "https://images.unsplash.com/photo-1582053433976-25c00369fc93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80",
+      "https://i.kym-cdn.com/entries/icons/original/000/020/387/walt.jpg",
     author: "Pepsi Co.",
     authorImg:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "https://static.dezeen.com/uploads/2023/03/pepsi-rebrand-retro-logo-rich-heritage_dezeen_2364_col_8.jpg",
   },
   {
     title: "Mohammad's App",
-    link: "apps/mohammad10/indez.html",
+    link: "../apps/mohammad10/indez.html",
     coverImg:
       "https://images.unsplash.com/photo-1582053433976-25c00369fc93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80",
     author: "Mohammad",
@@ -51,7 +51,7 @@ let apps = [
   },
   {
     title: "MOBI Typing Test",
-    link: "apps/TypingTest/index.html",
+    link: "../apps/TypingTest/index.html",
     coverImg: "assets/appImages/TypingTestCoverImg.PNG",
     author: "Rodrigo Munoz",
     authorImg: "https://avatars.githubusercontent.com/u/65474436?v=4",
@@ -65,35 +65,35 @@ let apps = [
   },
   {
     title: "MOMO 2D",
-    link: "apps/MOMO2D/index.html",
+    link: "../apps/MOMO2D/index.html",
     coverImg: "assets/appImages/MOMO2D.png",
     author: "Diego Vester",
     authorImg: "https://github.com/diegovester.png",
   },
   {
     title: "Bob",
-    link: "apps/Bob/index.html",
+    link: "../apps/Bob/index.html",
     coverImg: "",
     author: "Iyanu",
     authorImg: "",
   },
   {
     title: "URL Shortener",
-    link: "apps/virajs/index.html",
+    link: "../apps/virajs/index.html",
     coverImg: "assets/appImages/URL_Shortner_img.jpeg",
     author: "Viraj Sabhaya",
     authorImg: "https://avatars.githubusercontent.com/u/65474436?v=4",
   },
   {
     title: "Base Converter",
-    link: "apps/base_convert/index.html",
+    link: "../apps/base_convert/index.html",
     coverImg: "",
     author: "Betim Hodza",
     authorImg: "",
   },
   {
     title: "Git Cheatsheet",
-    link: "apps/git_cheatsheet/index.html",
+    link: "../apps/git_cheatsheet/index.html",
     coverImg: "assets/appImages/git.png",
     author: "Srikeerthi",
     authorImg: "",

@@ -17,7 +17,7 @@
     },
     {
       "name": "Dog App",
-      "link": "apps/dog_app/mobi.html",
+      "link": "../apps/dog_app/mobi.html",
       "coverImg": "path/to/dog_app_image.jpg"
     },
     {
@@ -46,10 +46,6 @@
       "coverImg": "path/to/URL_Shortner_img.jpeg"
     },
     {
-      "name": "Base Converter",
-      "link": "apps/BaseConverter/index.html",
-      "coverImg": "path/to/momo_image.jpg"
-    },
       "name": "MOMO",
       "link": "apps/momo/index.html",
       "coverImg": "path/to/momo_image.jpg"
