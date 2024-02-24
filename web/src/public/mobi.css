@@ -42,7 +42,7 @@ body {
   margin: 0;
   padding: 0;
   /* background: linear-gradient(to right, #3494e6, #ec6ead); */
-  background: #2A1A27;
+  background: var(--blue1);
   color: var(--green3);
   text-align: center;
 }
@@ -58,6 +58,8 @@ div {
   min-height: var(--wrapper-height);
   place-items: center;
   margin: 3rem 2rem 0;
+  z-index: 10;
+  position: relative
 }
 .content {
   display: flex;
@@ -169,6 +171,8 @@ header {
   margin-top: -30px;
   padding: 1.5em 0;
   border-radius: 15px;
+  position: relative;
+  z-index: 10;
 }
 
 footer {
@@ -293,4 +297,70 @@ footer {
   100% {
     transform: translateX(-25%);
   }
+}
+
+/* ANIMATED BACKGROUND */
+
+.squares {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.squares li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 300px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.squares li:nth-child(1){
+  left: 25%;
+  width: 300px;
+  height: 300px;
+  animation-delay: 0s;
+  animation-duration: 4s;
+}
+
+.squares li:nth-child(2){
+  left: 25%;
+  width: 300px;
+  height: 300px;
+  animation-delay: 0.1s;
+  animation-duration: 4s;
+}
+
+.squares li:nth-child(3){
+  left: 25%;
+  width: 300px;
+  height: 300px;
+  animation-delay: 0.2s;
+  animation-duration: 4s;
+}
+
+
+
+@keyframes animate {
+
+  0%{
+      transform: translateY(-1000px) rotate(0deg);
+      opacity: 1;
+  }
+
+  100%{
+      transform: translateY(0) rotate(720deg);
+      opacity: 0;
+  }
+
 }
