@@ -383,8 +383,9 @@ footer {
 .squares-1 {
    position: absolute;
    top: 0;
-   left: 500px;
-   width: 100%;
+   left: 0;
+   margin-left: 400px;
+   width: 100vh;
    height: 100%;
 }
 
