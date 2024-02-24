@@ -59,7 +59,7 @@ let apps = [
   {
     title: "Egg App",
     link: "https://diegovester.github.io/egg/",
-    coverImg: "assets/appImages/EggApp.png",
+    coverImg: "../assets/appImages/EggApp.png",
     author: "Diego Vester",
     authorImg: "https://github.com/diegovester.png",
   },
@@ -101,17 +101,24 @@ let apps = [
   {
     title: "GitHub 101",
     link: "https://youtu.be/N12wZBzG4Hw?si=ClxmD9IcKej0Gtpp",
-    coverImg: "assets/appImages/GitHub101.png",
+    coverImg: "../assets/appImages/GitHub101.png",
     author: "Devrat",
     authorImg: "./apps/devrat/kevin_minion.png",
   },
   {
     title: "Lizzy Wizzy",
     link: "../apps/wasm/lizzy-wizzy/index.html",
-    coverImg: "assets/appImages/lizzy-wizzy.png",
+    coverImg: "../assets/appImages/lizzy-wizzy.png",
     author: "Waseem",
     authorImg: "https://avatars.githubusercontent.com/u/69316929?v=4",
   },
+  {
+    title: "Box Fall",
+    link: "../apps/box_fall/index.html",
+    coverImg: "../assets/appImages/box_fall.png",
+    author: "Diego Vester",
+    authorImg: "https://github.com/diegovester.png"
+  }
 ];
 
 function newApp(app) {

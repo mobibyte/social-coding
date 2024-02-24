@@ -2,17 +2,17 @@
   "apps": [
     {
       "name": "Diego's App",
-      "link": "apps/diegovester/diego.html",
+      "link": "../apps/diegovester/diego.html",
       "coverImg": "path/to/diegos_app_image.jpg"
     },
     {
       "name": "Trevor's App",
-      "link": "apps/trevorddr5/trevy.html",
+      "link": "../apps/trevorddr5/trevy.html",
       "coverImg": "path/to/trevors_app_image.jpg"
     },
     {
       "name": "Minion's Abode",
-      "link": "apps/devrat/devrat.html",
+      "link": "../apps/devrat/devrat.html",
       "coverImg": "path/to/minions_abode_image.jpg"
     },
     {
