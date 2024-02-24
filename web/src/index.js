@@ -105,6 +105,13 @@ let apps = [
     author: "Devrat",
     authorImg: "./apps/devrat/kevin_minion.png",
   },
+  {
+    title: "Lizzy Wizzy",
+    link: "apps/wasm/lizzy-wizzy/index.html",
+    coverImg: "assets/appImages/lizzy-wizzy.png",
+    author: "Waseem",
+    authorImg: "https://avatars.githubusercontent.com/u/69316929?v=4",
+  },
 ];
 
 function newApp(app) {
