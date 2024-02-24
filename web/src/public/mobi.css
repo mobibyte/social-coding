@@ -18,7 +18,7 @@
   --green1: #219653;
   --green2: #27ae60;
   --green3: #6fcf97;
-  --blue1: #0000FF;
+  --blue1: #2F80ED;
   --blue2: #2d9cdb;
   --blue3: #56ccf2;
   --purple1: #9b51e0;
@@ -42,7 +42,7 @@ body {
   margin: 0;
   padding: 0;
   /* background: linear-gradient(to right, #3494e6, #ec6ead); */
-  background: var(--blue1); /*Fallback */  
+  background: black; /*Fallback */  
   animation: color 9s infinite linear;
   color: var(--green3);
   text-align: center;
