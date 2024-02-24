@@ -80,7 +80,7 @@ let apps = [
   {
     title: "URL Shortener",
     link: "../apps/virajs/index.html",
-    coverImg: "assets/appImages/URL_Shortner_img.jpeg",
+    coverImg: "./assets/appImages/URL_Shortner_img.jpeg",
     author: "Viraj Sabhaya",
     authorImg: "https://avatars.githubusercontent.com/u/65474436?v=4",
   },
@@ -94,28 +94,28 @@ let apps = [
   {
     title: "Git Cheatsheet",
     link: "../apps/git_cheatsheet/index.html",
-    coverImg: "assets/appImages/git.png",
+    coverImg: "./assets/appImages/git.png",
     author: "Srikeerthi",
     authorImg: "",
   },
   {
     title: "GitHub 101",
     link: "https://youtu.be/N12wZBzG4Hw?si=ClxmD9IcKej0Gtpp",
-    coverImg: "../assets/appImages/GitHub101.png",
+    coverImg: "./assets/appImages/GitHub101.png",
     author: "Devrat",
     authorImg: "./apps/devrat/kevin_minion.png",
   },
   {
     title: "Lizzy Wizzy",
     link: "../apps/wasm/lizzy-wizzy/index.html",
-    coverImg: "../assets/appImages/lizzy-wizzy.png",
+    coverImg: "./assets/appImages/lizzy-wizzy.png",
     author: "Waseem",
     authorImg: "https://avatars.githubusercontent.com/u/69316929?v=4",
   },
   {
     title: "Box Fall",
     link: "../apps/box_fall/index.html",
-    coverImg: "../assets/appImages/box_fall.png",
+    coverImg: "./assets/appImages/box_fall.png",
     author: "Diego Vester",
     authorImg: "https://github.com/diegovester.png"
   }
