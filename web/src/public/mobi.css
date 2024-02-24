@@ -18,7 +18,7 @@
   --green1: #219653;
   --green2: #27ae60;
   --green3: #6fcf97;
-  --blue1: #2f80ed;
+  --blue1: #0000FF;
   --blue2: #2d9cdb;
   --blue3: #56ccf2;
   --purple1: #9b51e0;
@@ -42,7 +42,8 @@ body {
   margin: 0;
   padding: 0;
   /* background: linear-gradient(to right, #3494e6, #ec6ead); */
-  background: var(--blue1);
+  background: var(--blue1); /*Fallback */  
+  animation: color 9s infinite linear;
   color: var(--green3);
   text-align: center;
 }
@@ -354,13 +355,31 @@ footer {
 @keyframes animate {
 
   0%{
-      transform: translateY(-1000px) rotate(0deg);
-      opacity: 1;
+    transform: translateY(-1000px) rotate(0deg);
+    opacity: 1;
+    background: var(--blue3)
+  }
+
+  20%{
+    background: var(--green2)
+  }
+
+  40%{
+    background: var(--yellow)
+  }
+
+  60%{
+    background: var(--orange)
+  }
+
+  80%{
+    background: var(--green2)
   }
 
   100%{
-      transform: translateY(0) rotate(720deg);
-      opacity: 0;
+    transform: translateY(0) rotate(720deg);
+    opacity: 0;
+    background:var(--blue3)
   }
 
 }
