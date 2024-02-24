@@ -266,3 +266,31 @@ footer {
   left:28%;
   rotate: 10deg;
 }
+
+
+.logos-slide img {
+  height: 12vh;
+  margin: 0 3vh;
+}
+
+.logos-slide {
+  display: flex;
+  animation: slide 10s linear infinite; 
+}
+
+.logos {
+  overflow: hidden;
+  padding: 1vh 0 0 0;
+  white-space: nowrap;
+  background-color: rgba(0, 0, 0, 0.03);
+  position:relative;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-25%);
+  }
+}
