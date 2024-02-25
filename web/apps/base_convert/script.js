@@ -1,17 +1,43 @@
 // Get references to input elements
-const inputNumber = document.getElementById("input-number");
-const fromBaseSelect = document.getElementById("from-base");
-const toBaseSelect = document.getElementById("to-base");
-const outputDiv = document.getElementById("output");
+let inputNumber = document.getElementById("input-number");
+let fromBaseSelect = document.getElementById("from-base");
+let toBaseSelect = document.getElementById("to-base");
+let outputDiv = document.getElementById("output");
+
+// Function to convert number from any base to base 10
+function convertToBase10(number, fromBase) 
+{
+    let base10Number = 0;
+    let digits = number.split("").reverse();
+    for (let i = 0; i < digits.length; i++) 
+    {
+        let digit = parseInt(digits[i], fromBase);
+        base10Number += digit * Math.pow(fromBase, i);
+    }
+    return base10Number;
+}
 
 // Function to convert number between bases
-// Function to convert number between bases
 function convertNumber(number, fromBase, toBase) {
-  
+    let base10Number = convertToBase10(number, fromBase);
+    switch (toBase) {
+        case 2:
+            return (base10Number).toString(2);
+        case 8:
+            return (base10Number).toString(8);
+        case 10:
+            return (base10Number).toString(10);
+        case 16:
+            return (base10Number).toString(16);
+        default:
+            throw new Error(`Invalid conversion: ${fromBase} to ${toBase}`);
+    }
 }
+
 // Add event listener for form submission
 document.querySelector("form").addEventListener("submit", (event) => {
-    event.preventDefault()
-    outputDiv.innerHTML = "clicked"
-    console.log("hsadfkjsad")
+    event.preventDefault();
+    
+    // Update the output div with the converted value
+    outputDiv.textContent = "Result: " + convertNumber(inputNumber.value, parseInt(fromBaseSelect.value), parseInt(toBaseSelect.value));
 });
