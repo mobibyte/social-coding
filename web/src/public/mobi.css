@@ -88,17 +88,22 @@ div {
 }
 
 .bio-container {
-   background: white;
+   background: linear-gradient(90deg, #f3f3f3 13.4%, #50e8ff 86.6%);
    padding: 0.5rem;
-   /*   border-radius: 1rem; */
    transform: rotate(5deg);
    border: 1.5px solid black;
    border-radius: 12px;
    color: black;
+   background-size: 150% auto;
+   transition: all 0.5s ease;
+}
+
+.bio-container:hover {
+   background-position: right center;
 }
 
 .discord-container {
-   background: violet;
+   background-image: linear-gradient(90deg, #3d73eb 13.4%, #de8fff 86.6%);
    border: 1.5px solid black;
    border-radius: 12px;
    color: black;
@@ -107,12 +112,14 @@ div {
    font-weight: bold;
    text-align: center;
    cursor: pointer;
+   background-size: 150% auto;
    position: relative;
-   transition: all 0.3s ease;
+   transition: all 0.5s ease;
 }
 
 .discord-container:hover {
    transform: scale(1.04);
+   background-position: right center;
 }
 
 .io-container {
@@ -131,8 +138,8 @@ div {
    display: flex;
    align-items: center;
    justify-content: center;
-   transition: all 0.3s ease;
-   background-color: white;
+   transition: all 0.5s ease;
+   background: white;
    padding: 2%;
 }
 
