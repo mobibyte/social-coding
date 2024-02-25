@@ -118,6 +118,13 @@ let apps = [
     coverImg: "./assets/appImages/box_fall.png",
     author: "Diego Vester",
     authorImg: "https://github.com/diegovester.png"
+  },
+  {
+    title: "Color Changing Canvas",
+    link: "../apps/color_changer/index.html",
+    coverImg: "./apps/color_changer/thumbnail.png",
+    author: "Diego Vester",
+    authorImg: "https://github.com/diegovester.png"
   }
 ];
 

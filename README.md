@@ -34,5 +34,6 @@ Now you have your own forked social-coding repository. This will act as a copy a
 
 We'll show you how to do that now.  
 
-# Clone
+# Clone  
+
 
