@@ -156,7 +156,6 @@ a:hover {
 
 .card-devrat:hover {
    background-position: right center;
-   cursor: pointer;
 }
 
 .card-ayden {
@@ -184,7 +183,6 @@ a:hover {
 
 .card-ayden:hover {
    background-position: right center;
-   cursor: pointer;
 }
 
 .card-diego {
@@ -212,5 +210,4 @@ a:hover {
 
 .card-diego:hover {
    background-position: right center;
-   cursor: pointer;
 }
