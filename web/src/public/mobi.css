@@ -46,6 +46,7 @@ body {
    animation: color 9s infinite linear;
    color: var(--green3);
    text-align: center;
+   overflow-x: hidden;
 }
 
 div {
@@ -400,7 +401,6 @@ footer {
    }
 }
 
-/*
 .squares-1 {
    position: absolute;
    top: 0;
@@ -449,4 +449,3 @@ footer {
    animation-delay: 2.2s;
    animation-duration: 6s;
 }
-*/
