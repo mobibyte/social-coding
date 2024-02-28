@@ -89,7 +89,6 @@ a:hover {
 
 .card:hover {
    background-position: right center;
-   cursor: pointer;
 }
 
 .navbar {
