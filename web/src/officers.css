@@ -24,9 +24,9 @@ body {
 .card {
    background-image: linear-gradient(90deg, #3d73eb 13.4%, #de8fff 86.6%);
    box-shadow: 2px 2px 5px black;
-   max-width: 200px;
+   max-width: 180px;
    text-align: center;
-   margin: 30px;
+   margin: 15px;
    margin-top: 40px;
    border-radius: 30px;
    transition: 0.5s;
@@ -133,9 +133,9 @@ a:hover {
 .card-devrat {
    background-image: linear-gradient(210deg, #0538ff 13.4%, #5799f7 86.6%);
    box-shadow: 2px 2px 5px black;
-   max-width: 200px;
+   max-width: 180px;
    text-align: center;
-   margin: 30px;
+   margin: 15px;
    margin-top: 40px;
    border-radius: 30px;
    transition: 0.5s;
@@ -161,9 +161,9 @@ a:hover {
 .card-ayden {
    background-image: linear-gradient(90deg, #3d73eb 13.4%, #de8fff 86.6%);
    box-shadow: 2px 2px 5px black;
-   max-width: 200px;
+   max-width: 180px;
    text-align: center;
-   margin: 30px;
+   margin: 15px;
    margin-top: 40px;
    border-radius: 30px;
    transition: 0.5s;
@@ -188,9 +188,10 @@ a:hover {
 .card-diego {
    background-image: linear-gradient(60deg, #00b6cf 13.4%, #0037ff 86.6%);
    box-shadow: 2px 2px 5px black;
-   max-width: 200px;
+   max-width: 180px;
    text-align: center;
-   margin: 30px;
+   margin: 15px;
+   margin-left: 20px;
    margin-top: 40px;
    border-radius: 30px;
    transition: 0.5s;
@@ -210,4 +211,45 @@ a:hover {
 
 .card-diego:hover {
    background-position: right center;
+}
+
+.card-viraj {
+   background-image: linear-gradient(60deg, #614385 13.4%, #314fa2 86.6%);
+   box-shadow: 2px 2px 5px black;
+   max-width: 180px;
+   text-align: center;
+   margin: 15px;
+   margin-top: 40px;
+   border-radius: 30px;
+   transition: 0.5s;
+   background-size: 150% auto;
+}
+
+.card-viraj h1 {
+   color: #fff;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+   font-family: Poppins;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   margin-top: 0px;
+}
+
+.card-viraj:hover {
+   background-position: right center;
+}
+
+.about-viraj {
+   margin-top: 0px;
+   color: #fff;
+   text-align: center;
+   font-family: Poppins;
+   font-size: 8.5px;
+   padding-left: 17px;
+   padding-right: 17px;
+   margin-top: 14px;
+   margin-bottom: 7px;
+   justify-content: center;
+   align-items: center;
 }
