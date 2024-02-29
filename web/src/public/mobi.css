@@ -329,6 +329,7 @@ footer {
    left: 0;
    width: 100%;
    height: 100%;
+   overflow: hidden;
 }
 
 .squares li {
@@ -401,13 +402,14 @@ footer {
    }
 }
 
-.squares-1 {
+/*.squares-1 {
    position: absolute;
    top: 0;
    left: 0;
    margin-left: 400px;
    width: 100vh;
    height: 100%;
+   overflow-x: hidden;
 }
 
 .squares-1 li {
@@ -449,3 +451,4 @@ footer {
    animation-delay: 2.2s;
    animation-duration: 6s;
 }
+*/
