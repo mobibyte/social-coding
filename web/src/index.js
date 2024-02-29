@@ -125,6 +125,13 @@ let apps = [
     coverImg: "../apps/color_changer/thumbnail.png",
     author: "Diego Vester",
     authorImg: "https://github.com/diegovester.png"
+  },
+  {
+    title: "MOMO Coin",
+    link: "../apps/MOMOcoin/index.html",
+    coverImg: "../apps/MOMOcoin/thumbnail.png",
+    author: "Diego Vester",
+    authorImg: "https://github.com/diegovester.png"
   }
 ];
 
