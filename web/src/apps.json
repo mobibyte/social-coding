@@ -2,22 +2,22 @@
   "apps": [
     {
       "name": "Diego's App",
-      "link": "apps/diegovester/diego.html",
+      "link": "../apps/diegovester/diego.html",
       "coverImg": "path/to/diegos_app_image.jpg"
     },
     {
       "name": "Trevor's App",
-      "link": "apps/trevorddr5/trevy.html",
+      "link": "../apps/trevorddr5/trevy.html",
       "coverImg": "path/to/trevors_app_image.jpg"
     },
     {
       "name": "Minion's Abode",
-      "link": "apps/devrat/devrat.html",
+      "link": "../apps/devrat/devrat.html",
       "coverImg": "path/to/minions_abode_image.jpg"
     },
     {
       "name": "Dog App",
-      "link": "apps/dog_app/mobi.html",
+      "link": "../apps/dog_app/mobi.html",
       "coverImg": "path/to/dog_app_image.jpg"
     },
     {
@@ -46,10 +46,6 @@
       "coverImg": "path/to/URL_Shortner_img.jpeg"
     },
     {
-      "name": "Base Converter",
-      "link": "apps/BaseConverter/index.html",
-      "coverImg": "path/to/momo_image.jpg"
-    },
       "name": "MOMO",
       "link": "apps/momo/index.html",
       "coverImg": "path/to/momo_image.jpg"

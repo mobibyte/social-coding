@@ -19,15 +19,50 @@
         <td>git clone [url]</td>
         <td>Clone a repository</td>
       </tr>
+      <tr></tr>
+      <tr>
+        <td>git status</td>
+        <td>Show modified files in directory, staged for commit</td>
+      </tr>
       <tr>
         <td>git add [path of file]</td>
-        <td>stages file created/updated</td>
+        <td>Stages file created/updated</td>
       </tr>
       <tr>
         <td>git commit -m "message"</td>
         <td>Commits the staged file to repository with a message</td>
       </tr>
+      <tr>
+        <td>git push [alias] [branch]</td>
+        <td>
+          Push local changes in the machine to the repository on the internet
+        </td>
+      </tr>
+      <tr>
+        <td>git stash</td>
+        <td>Save modified and staged changes</td>
+      </tr>
+      <tr>
+        <td>git remote add [name] [url]</td>
+        <td>Adds the url under an alias</td>
+      </tr>
+      <tr>
+        <td>git fetch [name]</td>
+        <td>
+          Retrieve changes from a remote repository, specifically from a remote
+          named "[name]"
+        </td>
+      </tr>
+      <tr>
+        <td>git branch [branch-name]</td>
+        <td>Creates a branch at current commit</td>
+      </tr>
+      <tr>
+        <td>git checkout [branch-name]</td>
+        <td>Switch to another branch and checkout in the working directory</td>
+      </tr>
     </table>
+
     <br />
     <br />
     <h2>Conventional commits</h2>
@@ -36,12 +71,58 @@
         <th>Commit type</th>
         <th>Defintion</th>
         <th>Example</th>
-        <tr><td>feat</td>
+      </tr>
+
+      <tr>
+        <td>feat</td>
         <td>Highlights that a feature has been added to an implementation</td>
-    <td>git commit -m "feat: added square root (sqrt) operation to calculator app"</td></tr>
+        <td>
+          git commit -m "feat: added square root (sqrt) operation to calculator
+          app"
+        </td>
+      </tr>
+      <tr>
+        <td>fix</td>
+        <td>
+          Highlights that a previous feature that had a bug has been fixed
+        </td>
+        <td>git commit -m "fix: equal button in calculator app"</td>
+      </tr>
+      <tr>
+        <td>docs</td>
+        <td>
+          Presents change in documentation in terms of comments to code, doc
+          strings or changes in readme
+        </td>
+        <td>
+          git commit -m "docs: created docstring highlighting the parameters
+          used in the add function"
+        </td>
+      </tr>
+      <tr>
+        <td>chore</td>
+        <td>
+          Indicate changes that are related to tasks or maintenance activities
+          that are not directly related to adding a feature or fixing a bug
+        </td>
+        <td>
+          git commit -m "chore: Update README file with project documentation"
+        </td>
+      </tr>
+      <tr>
+        <td>perf</td>
+        <td>
+          Changes that are aimed at improving the performance of the software.
+          Involve optimizations, enhancements, or other modifications designed
+          to make the software run faster, use fewer resources, or improve
+          efficiency.
+        </td>
+        <td>
+          git commit -m "perf: Optimize database query to improve response time"
+        </td>
       </tr>
     </table>
-    <br><br>
+    <br /><br />
     <h2>Thesaurus</h2>
     <table>
       <tr>
@@ -58,8 +139,22 @@
       </tr>
       <tr>
         <td>Commit</td>
+        <td>Freeze changes added/made with a message</td>
+      </tr>
+      <tr>
+        <td>Remote</td>
         <td>
-          Freeze changes added/made with a message 
+          Refers to the versions of a repository that are hosted on servers
+        </td>
+      </tr>
+      <tr>
+        <td>Branch</td>
+        <td>
+          branch is a parallel version of a repository's codebase that diverges
+          from the main line of development. It allows developers to work on
+          different features, bug fixes, or experiments without affecting the
+          main codebase until they are ready to merge their changes back into
+          it.
         </td>
       </tr>
     </table>
