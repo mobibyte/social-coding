@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
    font-family: "Poppins", Arial, sans-serif;
@@ -26,13 +26,15 @@ body {
 
 h1 {
    margin: 0;
+   font-weight: 500;
 }
 
 .events-heading {
    color: white;
    background-color: rgb(30, 30, 30);
    padding: 10px;
-   border-radius: 5px;
+   border-radius: 12px;
+   font-weight: 450;
    text-align: left;
 }
 
@@ -56,9 +58,15 @@ h1 {
    background-position: right center;
 }
 
+.event hr {
+   margin: 0px;
+   border: 1px solid hsla(0, 0%, 9%, 0.4);
+}
+
 .event h2 {
    color: #333;
    font-size: 20px;
+   font-weight: 600;
 }
 
 .event p {
