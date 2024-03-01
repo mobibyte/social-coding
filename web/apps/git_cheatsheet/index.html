@@ -61,6 +61,17 @@
         <td>git checkout [branch-name]</td>
         <td>Switch to another branch and checkout in the working directory</td>
       </tr>
+      <tr>
+        <td>git log</td>
+        <td>Retrieve commit history for active branch in the repository</td>
+      </tr>
+      <tr>
+        <td>.gitignore file</td>
+        <td>
+          list of files or directories that will not be part of the repository
+          or commit history
+        </td>
+      </tr>
     </table>
 
     <br />
@@ -119,6 +130,30 @@
         </td>
         <td>
           git commit -m "perf: Optimize database query to improve response time"
+        </td>
+      </tr>
+      <tr>
+        <td>BREAKING CHANGE / !</td>
+        <td>
+          Modifications made that impacts the existing functionality. Involves
+          changes that require update in software or code or any configurations
+          that accomodate the new version.
+        </td>
+        <td>
+          git commit -m "BREAKING CHANGE: the add function can work on any
+          number of arguments instead of 2 parameters in the previous version"
+          git commit -m "feat!: Calculating sqrt of number using np.sqrt()"
+        </td>
+      </tr>
+      <tr>
+        <td>refactor</td>
+        <td>
+          Improve the existing code readability, maintainability without
+          affecting the functionality
+        </td>
+        <td>
+          git commit -m "refactor: Renaming variables, functions, or classes to
+          better reflect their purpose. "
         </td>
       </tr>
     </table>
