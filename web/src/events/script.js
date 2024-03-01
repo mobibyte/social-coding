@@ -10,8 +10,14 @@ fetch("https://mavorgs.campuslabs.com/engage/events.rss")
          const host = item.querySelector("host");
          if (host && host.textContent.trim() === "Mobi") {
             const title = item.querySelector("title").textContent;
-            const description = item.querySelector("description").textContent;
-            const date = item.querySelector("pubDate").textContent;
+            let description = item.querySelector("description").textContent;
+
+            const tempElement = document.createElement("div");
+            tempElement.innerHTML = description;
+            const excludedElements =
+               tempElement.querySelectorAll(".p-name.summary");
+            excludedElements.forEach((el) => el.remove());
+            description = tempElement.innerHTML;
 
             const eventItem = document.createElement("div");
             eventItem.classList.add("event");
