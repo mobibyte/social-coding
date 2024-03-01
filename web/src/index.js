@@ -87,9 +87,9 @@ let apps = [
   {
     title: "Base Converter",
     link: "../apps/base_convert/index.html",
-    coverImg: "",
+    coverImg: "./assets/appImages/Baseconvert.png",
     author: "Betim Hodza",
-    authorImg: "",
+    authorImg: "./assets/appImages/coffee cat.png",
   },
   {
     title: "Git Cheatsheet",
