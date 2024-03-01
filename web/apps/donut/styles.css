@@ -1,6 +1,6 @@
 body {
     font-family:  Arial, sans-serif;
-    background-color:rebeccapurple;
+    background-color:rgb(24, 123, 134);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -8,6 +8,7 @@ body {
     flex: auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .donut-container
@@ -19,3 +20,5 @@ body {
     color: white;
     padding: 20px;
 }
+
+
