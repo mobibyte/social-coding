@@ -139,6 +139,13 @@ let apps = [
     coverImg: "../apps/coke/thumbnail.png",
     author: "Caitxys",
     authorImg: "https://github.com/Caitxys.png"
+  },
+  {
+    title: "Eternal",
+    link: "../apps/Eternal/index.html",
+    coverImg: "../apps/Eternal/thumbnail.png",
+    author: "Eternal",
+    authorImg: "https://github.com/Eternal.png"
   }
 ];
 
