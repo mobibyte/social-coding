@@ -17,6 +17,31 @@ function convertToBase10(number, fromBase)
     return base10Number;
 }
 
+/* FUNCTION UNDER CONSTRUCTION
+//function to convert ASCII text to any base number
+function convertStringBase(str, fromBase, toBase) {
+
+    //convert our str to base 10
+    let numInBase10 = convertToBase10(str, fromBase);
+
+    switch(toBase)
+    {
+        case 2:
+            return 
+        case 8:
+            return
+        case 10:
+            return numInBase10;
+        case 16:
+            return 
+        default:
+            throw new Error(`Invalid conversion: ${fromBase} to ${toBase}`);
+    }
+
+}
+*/
+
+
 // Function to convert number between bases
 function convertNumber(number, fromBase, toBase) {
     let base10Number = convertToBase10(number, fromBase);
@@ -29,10 +54,13 @@ function convertNumber(number, fromBase, toBase) {
             return (base10Number).toString(10);
         case 16:
             return (base10Number).toString(16);
+        case 'string':
+            return convertStringBase(base10Number.toString(), 10, 'string');
         default:
             throw new Error(`Invalid conversion: ${fromBase} to ${toBase}`);
     }
 }
+
 
 // Add event listener for form submission
 document.querySelector("form").addEventListener("submit", (event) => {

@@ -8,6 +8,14 @@ let apps = [
     authorImg: "https://github.com/diegovester.png",
   },
   {
+    title: "Valita",
+    link: "../apps/valita/diego.html",
+    coverImg:
+      "https://images.unsplash.com/photo-1582053433976-25c00369fc93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80",
+    author: "Valita",
+    authorImg: "",
+  },
+  {
     title: "Trevor's App",
     link: "../apps/trevorddr5/trevy.html",
     coverImg:
@@ -87,9 +95,9 @@ let apps = [
   {
     title: "Base Converter",
     link: "../apps/base_convert/index.html",
-    coverImg: "",
+    coverImg: "./assets/appImages/Baseconvert.png",
     author: "Betim Hodza",
-    authorImg: "",
+    authorImg: "./assets/appImages/coffee cat.png",
   },
   {
     title: "Git Cheatsheet",
@@ -132,6 +140,13 @@ let apps = [
     coverImg: "../apps/MOMOcoin/thumbnail.png",
     author: "Diego Vester",
     authorImg: "https://github.com/diegovester.png"
+  },
+  {
+    title: "Coke",
+    link: "../apps/coke/index.html",
+    coverImg: "../apps/coke/thumbnail.png",
+    author: "Caitxys",
+    authorImg: "https://github.com/Caitxys.png"
   }
 ];
 
