@@ -154,6 +154,13 @@ let apps = [
     coverImg: "../apps/Eternal/thumbnail.png",
     author: "Eternal",
     authorImg: "https://github.com/Eternal.png"
+  },
+  {
+    title: "Donut",
+    link: "../apps/donut/index.html",
+    coverImg: "../apps/donut/thumbnail.png",
+    author: "Betim Hodza",
+    authorImg: "./assets/appImages/coffee cat.png",
   }
 ];
 
