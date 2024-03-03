@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>dicover the truth</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./okm.css">
+        <script src="./okm.js" async defer></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <h1>generates truth tables</h1>
+        <h4 style="position: sticky; top: 10px; text-align: right;">or at least tries to</h4>
+
+        <hr>
+        <h2>variables</h2>
+
+        <div id="vars">
+            <ol class="table">
+                <li>a</li>
+                <li>b</li>
+                <li>c</li>
+            </ol>
+            <button onclick="appendList('vars')">add</button>
+            <input type="text" placeholder="case sensitive">
+            <br>
+            <button onclick="clearList('vars')">clear</button>
+        </div>
+
+        <hr>
+        <h2>conditions</h2>
+
+        <div id="conds">
+            <ol class="table">
+                <li>a</li>
+                <li>b</li>
+                <li>c</li>
+            </ol>
+            <table class="condense">
+                <tr>
+                    <td>and</td>
+                    <td>a&b</td>
+                </tr>
+                <tr>
+                    <td>or</td>
+                    <td>a+b</td>
+                </tr>
+                <tr>
+                    <td>not</td>
+                    <td>~a</td>
+                </tr>
+                <tr>
+                    <td>xor</td>
+                    <td>a^b</td>
+                </tr>
+            </table>
+            <button onclick="appendList('conds')">add</button>
+            <input type="text" placeholder="a+b">
+            <br>
+            <button onclick="clearList('conds')" stlye="">clear</button>
+        </div>
+        <hr>
+        <button onclick="genTable()">go button</button>
+        <div>
+            <table id="truthTable">
+            </table>
+        </div>
+
+        <hr>
+        <h3>post</h3>
+        <p>matching is done with strict string matching. nothing is stopping you form putting locical
+             equations inside your variables, you do you 👍</p>
+        <p>"PEMDAS" has become "P[right to left]"</p>
+    </body>
+</html>
