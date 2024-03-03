@@ -15,7 +15,7 @@ let apps = [
    },
    {
       title: "Minions Gotta Check!!",
-      link: "../apps/to-do/index.html",
+      link: "../apps/to-do/todo.html",
       coverImg: "../apps/to-do/bg_2.jpg",
       author: "Devrat",
       authorImg: "../apps/time-till-new-year/kevin_minion.png",
