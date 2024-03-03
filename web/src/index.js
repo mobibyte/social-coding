@@ -18,15 +18,22 @@ let apps = [
     title: "Pepsi's App...?",
     link: "../apps/pepsi/pepsi.html",
     coverImg:
-      "https://i.kym-cdn.com/entries/icons/original/000/020/387/walt.jpg",
+    "https://i.kym-cdn.com/entries/icons/original/000/020/387/walt.jpg",
     author: "Pepsi Co.",
     authorImg:
-      "https://static.dezeen.com/uploads/2023/03/pepsi-rebrand-retro-logo-rich-heritage_dezeen_2364_col_8.jpg",
+    "https://static.dezeen.com/uploads/2023/03/pepsi-rebrand-retro-logo-rich-heritage_dezeen_2364_col_8.jpg",
   },
   {
     title: "Base Converter",
     link: "../apps/base_convert/index.html",
     coverImg: "./assets/appImages/Baseconvert.png",
+    author: "Betim Hodza",
+    authorImg: "./assets/appImages/coffee cat.png",
+  },
+  {
+    title: "Donut",
+    link: "../apps/donut/index.html",
+    coverImg: "../apps/donut/thumbnail.png",
     author: "Betim Hodza",
     authorImg: "./assets/appImages/coffee cat.png",
   },
@@ -156,13 +163,6 @@ let apps = [
     author: "Eternal",
     authorImg: "https://github.com/Eternal.png"
   },
-  {
-    title: "Donut",
-    link: "../apps/donut/index.html",
-    coverImg: "../apps/donut/thumbnail.png",
-    author: "Betim Hodza",
-    authorImg: "./assets/appImages/coffee cat.png",
-  }
 ];
 
 function newApp(app) {
