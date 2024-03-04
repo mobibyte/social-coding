@@ -176,7 +176,7 @@ let apps = [
       coverImg: "../apps/donut/thumbnail.png",
       author: "Betim Hodza",
       authorImg: "./assets/appImages/coffee cat.png",
-   },
+   }
 ];
 
 function newApp(app) {
