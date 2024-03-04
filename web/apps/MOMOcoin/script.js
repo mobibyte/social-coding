@@ -100,13 +100,13 @@ const data = [
     coins: 2
   }, {
     name: "Devrat",
-    coins: 2
+    coins: 3
   }, {
     name: "Diego",
     coins: 2
   }, {
     name: "Duckie",
-    coins: "1"
+    coins: 2
   }, {
     name: "Kenny",
     coins: 1
@@ -133,15 +133,18 @@ const data = [
     coins: 1
   }, {
     name: "Samanza",
-    coins: 1
+    coins: 2
   }, {
     name: "Trevor",
-    coins: 2
+    coins: 3
   }, {
     name: "Valentine",
     coins: 2
   }, {
     name: "Xavier",
+    coins: 1
+  }, { 
+    name: "Juan",
     coins: 1
   }
 ];
