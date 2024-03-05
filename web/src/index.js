@@ -30,11 +30,25 @@ let apps = [
          "https://static.dezeen.com/uploads/2023/03/pepsi-rebrand-retro-logo-rich-heritage_dezeen_2364_col_8.jpg",
    },
    {
+      title: "Donut",
+      link: "../apps/donut/index.html",
+      coverImg: "../apps/donut/thumbnail.png",
+      author: "Betim Hodza",
+      authorImg: "./assets/appImages/coffee cat.png",
+   },
+   {
       title: "Base Converter",
       link: "../apps/base_convert/index.html",
       coverImg: "./assets/appImages/Baseconvert.png",
       author: "Betim Hodza",
       authorImg: "./assets/appImages/coffee cat.png",
+   },
+   {
+      title: "Car Animation",
+      link: "../apps/car animation/index.html",
+      coverImg: "../apps/car animation/thumbnail.png",
+      author: "Srikeerthi S",
+      authorImg: "https://github.com/srikeerthis.png",
    },
    {
       title: "Git Cheatsheet",
@@ -177,13 +191,6 @@ let apps = [
       coverImg: "../apps/Eternal/thumbnail.png",
       author: "Eternal",
       authorImg: "https://github.com/Eternal.png",
-   },
-   {
-      title: "Donut",
-      link: "../apps/donut/index.html",
-      coverImg: "../apps/donut/thumbnail.png",
-      author: "Betim Hodza",
-      authorImg: "./assets/appImages/coffee cat.png",
    }
 ];
 
