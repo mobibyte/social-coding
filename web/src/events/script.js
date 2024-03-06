@@ -10,6 +10,9 @@ fetch("https://mavorgs.campuslabs.com/engage/events.rss")
          const host = item.querySelector("host");
          if (host && host.textContent.trim() === "Mobi") {
             const title = item.querySelector("title").textContent;
+            // if the title contains the word "cancelled", skip this event
+            if (title.toLowerCase().includes("cancelled")) return;
+            
             let description = item.querySelector("description").textContent;
 
             const tempElement = document.createElement("div");
