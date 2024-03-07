@@ -198,7 +198,7 @@ let apps = [
       coverImg: "../apps/Eternal/thumbnail.png",
       author: "Eternal",
       authorImg: "https://github.com/Eternal.png",
-   }
+   },
   {
     title: "Minion's Abode",
     link: "../apps/devrat/devrat.html",
