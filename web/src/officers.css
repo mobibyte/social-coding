@@ -253,3 +253,44 @@ a:hover {
    justify-content: center;
    align-items: center;
 }
+
+.card-ashley {
+   background-image: linear-gradient(60deg, #614385 13.4%, #314fa2 86.6%);
+   box-shadow: 2px 2px 5px black;
+   max-width: 180px;
+   text-align: center;
+   margin: 15px;
+   margin-top: 40px;
+   border-radius: 30px;
+   transition: 0.5s;
+   background-size: 150% auto;
+}
+
+.card-ashley h1 {
+   color: #fff;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+   font-family: Poppins;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   margin-top: 0px;
+}
+
+.card-ashley:hover {
+   background-position: right center;
+}
+
+.about-ashley {
+   margin-top: 0px;
+   color: #fff;
+   text-align: center;
+   font-family: Poppins;
+   font-size: 8.5px;
+   padding-left: 17px;
+   padding-right: 17px;
+   margin-top: 14px;
+   margin-bottom: 7px;
+   justify-content: center;
+   align-items: center;
+}

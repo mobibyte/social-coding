@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: yellowgreen;
+}
+
+li {
+    display: inline-block;
+    border: solid black;
+    border-width: 1px 1px;
+    padding: .2rem;
+}
+
+li:hover {
+    background-color: white;
+    animation: flippy;
+    animation-duration: .3s;
+}
+
+#truthTable th, td{
+    padding-inline: 10px;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+}
+
+tr:hover {
+    background-color: aliceblue;
+}
+
+.condense * {
+    border: solid black;
+    border-width: 1px;
+    display: inline-block
+}
+
+/* this has no purpose but to delay the user from noticing that there is no working way to selectively delete a list varaible */
+@keyframes flippy {
+    50%{transform: rotateX(90deg);}
+    /* maybe play some substep during this */
+}

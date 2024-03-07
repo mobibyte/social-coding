@@ -1,6 +1,6 @@
 body {
     font-family:  Arial, sans-serif;
-    background-image: url('assets/Grey\ and\ White\ Coffee\ Desktop\ Wallpaper.png');
+    background-image: url('./Grey\ and\ White\ Coffee\ Desktop\ Wallpaper.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
