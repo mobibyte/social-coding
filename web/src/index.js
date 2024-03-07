@@ -14,6 +14,13 @@ let apps = [
       authorImg: "https://github.com/diegovester.png",
    },
    {
+      title: "",
+      link: "../apps/SKO/idk.html",
+      coverImg: "./assets/appImages/default.png",
+      author: "Andre",
+      authorImg: "",
+   },
+   {
       title: "Minion's Abode",
       link: "../apps/devrat/devrat.html",
       coverImg: "../apps/devrat/bg.jpg",
