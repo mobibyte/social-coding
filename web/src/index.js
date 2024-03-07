@@ -124,7 +124,7 @@ let apps = [
    {
       title: "ACM Logo",
       link: "../apps/ACM Logo/ACM.html",
-      coverImg: "./apps/ACM Logo/thumbnail.png",
+      coverImg: "../apps/ACM Logo/thumbnail.png",
       author: "Bobby",
       authorImg: "https://github.com/BobbyAl.png",
    },
