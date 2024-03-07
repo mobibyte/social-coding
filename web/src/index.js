@@ -16,7 +16,7 @@ let apps = [
    {
       title: "",
       link: "../apps/SKO/idk.html",
-      coverImg: "./assets/appImages/default.png",
+      coverImg: "../apps/SKO/thumbnail.png",
       author: "Andre",
       authorImg: "",
    },
