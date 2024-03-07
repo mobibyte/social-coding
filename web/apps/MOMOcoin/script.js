@@ -116,7 +116,7 @@ const data = [
   },
    {
     name: "Devrat",
-    coins: 3
+    coins: 4
   }, {
     name: "Diego",
     coins: 2
