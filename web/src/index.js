@@ -1,5 +1,19 @@
 let apps = [
    {
+      title: "GitHub 101",
+      link: "https://youtu.be/N12wZBzG4Hw?si=ClxmD9IcKej0Gtpp",
+      coverImg: "./assets/appImages/GitHub101.png",
+      author: "Devrat",
+      authorImg: "../apps/time-till-new-year/kevin_minion.png",
+   },
+   {
+      title: "MOMO Coin",
+      link: "../apps/MOMOcoin/index.html",
+      coverImg: "../apps/MOMOcoin/thumbnail.png",
+      author: "Diego Vester",
+      authorImg: "https://github.com/diegovester.png",
+   },
+   {
       title: "Minion's Abode",
       link: "../apps/devrat/devrat.html",
       coverImg: "../apps/devrat/bg.jpg",
@@ -57,13 +71,7 @@ let apps = [
       author: "Srikeerthi",
       authorImg: "",
    },
-   {
-      title: "GitHub 101",
-      link: "https://youtu.be/N12wZBzG4Hw?si=ClxmD9IcKej0Gtpp",
-      coverImg: "./assets/appImages/GitHub101.png",
-      author: "Devrat",
-      authorImg: "../apps/time-till-new-year/kevin_minion.png",
-   },
+   
    {
       title: "Dog App",
       link: "../apps/dog_app/mobi.html",
@@ -86,13 +94,7 @@ let apps = [
       author: "Waseem",
       authorImg: "https://avatars.githubusercontent.com/u/69316929?v=4",
    },
-   {
-      title: "MOMO Coin",
-      link: "../apps/MOMOcoin/index.html",
-      coverImg: "../apps/MOMOcoin/thumbnail.png",
-      author: "Diego Vester",
-      authorImg: "https://github.com/diegovester.png",
-   },
+   
    {
       title: "MOMO Note",
       link: "https://momonote.mobi/",
