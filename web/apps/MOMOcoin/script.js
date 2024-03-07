@@ -91,14 +91,30 @@ const data = [
     coins: 1
   }, {
     name: "Ashley",
+    coins: 2
+  }, {
+    name: "Rodrigo",
     coins: 1
   }, {
     name: "Betim",
-    coins: 2
+    coins: 3
   }, {
     name: "Blonk",
-    coins: 2
+    coins: 3
   }, {
+    name: "Rose",
+    coins: 1
+  },{
+    name: "Tam",
+    coins: 1
+  },{
+    name: "Andre",
+    coins: 1
+  }, {
+    name: "Jodi",
+    coins: 1
+  },
+   {
     name: "Devrat",
     coins: 3
   }, {
@@ -106,13 +122,17 @@ const data = [
     coins: 2
   }, {
     name: "Duckie",
-    coins: 2
+    coins: 3
+  },
+  {
+    name: "Ismael",
+    coins: 1
   }, {
     name: "Kenny",
-    coins: 1
+    coins: 2
   }, {
     name: "Melinda",
-    coins: 1
+    coins: 2
   }, {
     name: "Preston",
     coins: 1
@@ -121,13 +141,17 @@ const data = [
     coins: 1
   }, {
     name: "Srikeerthi",
-    coins: 2
+    coins: 3
   }, {
     name: "Eternal",
     coins: 1
   }, {
     name: "Caitlin",
     coins: 1
+  },
+  {
+    name: "Iyanu",
+    coins: 2
   }, {
     name: "NoziOzi",
     coins: 1
@@ -141,10 +165,20 @@ const data = [
     name: "Valentine",
     coins: 2
   }, {
+    name: "Vincent",
+    coins: 1
+  }, {
     name: "Xavier",
     coins: 1
   }, { 
     name: "Juan",
+    coins: 2
+  }, { 
+    name: "Naga",
+    coins: 1
+  },
+  { 
+    name: "Dhrutik",
     coins: 1
   }
 ];
