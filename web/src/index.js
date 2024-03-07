@@ -1,5 +1,19 @@
 let apps = [
    {
+      title: "GitHub 101",
+      link: "https://youtu.be/N12wZBzG4Hw?si=ClxmD9IcKej0Gtpp",
+      coverImg: "./assets/appImages/GitHub101.png",
+      author: "Devrat",
+      authorImg: "../apps/time-till-new-year/kevin_minion.png",
+   },
+   {
+      title: "MOMO Coin",
+      link: "../apps/MOMOcoin/index.html",
+      coverImg: "../apps/MOMOcoin/thumbnail.png",
+      author: "Diego Vester",
+      authorImg: "https://github.com/diegovester.png",
+   },
+   {
       title: "Minion's Abode",
       link: "../apps/devrat/devrat.html",
       coverImg: "../apps/devrat/bg.jpg",
@@ -57,13 +71,7 @@ let apps = [
       author: "Srikeerthi",
       authorImg: "",
    },
-   {
-      title: "GitHub 101",
-      link: "https://youtu.be/N12wZBzG4Hw?si=ClxmD9IcKej0Gtpp",
-      coverImg: "./assets/appImages/GitHub101.png",
-      author: "Devrat",
-      authorImg: "../apps/time-till-new-year/kevin_minion.png",
-   },
+   
    {
       title: "Dog App",
       link: "../apps/dog_app/mobi.html",
@@ -86,13 +94,7 @@ let apps = [
       author: "Waseem",
       authorImg: "https://avatars.githubusercontent.com/u/69316929?v=4",
    },
-   {
-      title: "MOMO Coin",
-      link: "../apps/MOMOcoin/index.html",
-      coverImg: "../apps/MOMOcoin/thumbnail.png",
-      author: "Diego Vester",
-      authorImg: "https://github.com/diegovester.png",
-   },
+   
    {
       title: "MOMO Note",
       link: "https://momonote.mobi/",
@@ -104,6 +106,13 @@ let apps = [
       title: "MOMO 2D",
       link: "../apps/MOMO2D/index.html",
       coverImg: "./assets/appImages/MOMO2D.png",
+      author: "Diego Vester",
+      authorImg: "https://github.com/diegovester.png",
+   },
+   {
+      title: "MOMO Fall",
+      link: "../apps/MOMOfall/index.html",
+      coverImg: "./assets/appImages/momo.jpeg",
       author: "Diego Vester",
       authorImg: "https://github.com/diegovester.png",
    },
@@ -122,6 +131,13 @@ let apps = [
       authorImg: "https://github.com/diegovester.png",
    },
    {
+      title: "ACM Logo",
+      link: "../apps/ACM Logo/ACM.html",
+      coverImg: "../apps/ACM Logo/thumbnail.png",
+      author: "Bobby",
+      authorImg: "https://github.com/BobbyAl.png",
+   },
+   {
       title: "Egg App",
       link: "https://diegovester.github.io/egg/",
       coverImg: "./assets/appImages/EggApp.png",
@@ -131,32 +147,28 @@ let apps = [
    {
       title: "React Static Build",
       link: "../apps/react static/my-app/out/index.html",
-      coverImg:
-         "https://images.unsplash.com/photo-1582053433976-25c00369fc93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80",
+      coverImg:"./assets/appImages/momo.jpeg",
       author: "Diego Vester",
       authorImg: "https://github.com/diegovester.png",
    },
    {
       title: "Diego's App",
       link: "../apps/diegovester/diego.html",
-      coverImg:
-         "https://images.unsplash.com/photo-1582053433976-25c00369fc93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80",
+      coverImg: "./assets/appImages/momo.jpeg",
       author: "Diego Vester",
       authorImg: "https://github.com/diegovester.png",
    },
    {
       title: "Valita",
       link: "../apps/valita/diego.html",
-      coverImg:
-         "https://images.unsplash.com/photo-1582053433976-25c00369fc93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80",
+      coverImg: "./assets/appImages/momo.jpeg",
       author: "Valita",
       authorImg: "",
    },
    {
       title: "Trevor's App",
       link: "../apps/trevorddr5/trevy.html",
-      coverImg:
-         "https://images.unsplash.com/photo-1582053433976-25c00369fc93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80",
+      coverImg: "./assets/appImages/momo.jpeg",
       author: "Trevor DDR5",
       authorImg:
          "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
@@ -164,8 +176,7 @@ let apps = [
    {
       title: "Mohammad's App",
       link: "../apps/mohammad10/indez.html",
-      coverImg:
-         "https://images.unsplash.com/photo-1582053433976-25c00369fc93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80",
+      coverImg: "./assets/appImages/momo.jpeg",
       author: "Mohammad",
       authorImg:
          "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
@@ -174,28 +185,28 @@ let apps = [
    {
       title: "Bob",
       link: "../apps/Bob/index.html",
-      coverImg: "",
+      coverImg: "./assets/appImages/momo.jpeg",
       author: "Iyanu",
       authorImg: "",
    },
    {
       title: "URL Shortener",
       link: "../apps/virajs/index.html",
-      coverImg: "./assets/appImages/URL_Shortner_img.jpeg",
+      coverImg: "./assets/appImages/momo.jpeg",
       author: "Viraj Sabhaya",
       authorImg: "https://avatars.githubusercontent.com/u/65474436?v=4",
    },
    {
       title: "Coke",
       link: "../apps/coke/index.html",
-      coverImg: "../apps/coke/thumbnail.png",
+      coverImg: "./assets/appImages/momo.jpeg",
       author: "Caitxys",
       authorImg: "https://github.com/Caitxys.png",
    },
    {
       title: "Eternal",
       link: "../apps/Eternal/index.html",
-      coverImg: "../apps/Eternal/thumbnail.png",
+      coverImg: "./assets/appImages/momo.jpeg",
       author: "Eternal",
       authorImg: "https://github.com/Eternal.png",
    }
