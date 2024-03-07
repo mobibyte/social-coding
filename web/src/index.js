@@ -39,7 +39,7 @@ let apps = [
    {
       title: "Rotating Background",
       link: "../apps/rotatingBackground/index.html",
-      coverImg: "../apps/donut/thumbnail.png",
+      coverImg: "../apps/rotatingBackground/Thumbnail.png",
       author: "Betim Hodza",
       authorImg: "./assets/appImages/coffee cat.png",
    },
