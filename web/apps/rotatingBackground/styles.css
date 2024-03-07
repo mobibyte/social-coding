@@ -27,16 +27,17 @@ body {
   .wrapper {
     width: 100%;
     height: 100%;
-    transform-style: preserve-3d;
+    transform-style: flat;
     transform: rotateY(0) translateZ(0);
   }
   
   .tunnel {
     position: relative;
+    scale: 1000px;
     width: 1000px;
     height: 1000px;
     margin: 0 auto;
-    transform-style: preserve-3d;
+    transform-style: flat;
     animation: spin 20s infinite linear;
   }
   
@@ -47,7 +48,7 @@ body {
     width: 100%;
     height: 100%;
     border: 10px;
-    border-style:inset;
+    border-style: dotted;
     border-radius: 90%;
     transform-origin: 50% 50%;
     color: #8df435;
@@ -98,7 +99,7 @@ body {
   
   @keyframes spin {
     to {
-      transform: rotateZ(360deg)
+      transform: rotateZ(180deg)
     }
   }
   
