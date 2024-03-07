@@ -122,6 +122,13 @@ let apps = [
       authorImg: "https://github.com/diegovester.png",
    },
    {
+      title: "ACM Logo",
+      link: "../apps/ACM Logo/ACM.html",
+      coverImg: "./apps/ACM Logo/thumbnail.png",
+      author: "Bobby",
+      authorImg: "https://github.com/BobbyAl.png",
+   },
+   {
       title: "Egg App",
       link: "https://diegovester.github.io/egg/",
       coverImg: "./assets/appImages/EggApp.png",
