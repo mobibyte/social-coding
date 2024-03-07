@@ -108,6 +108,13 @@ let apps = [
       authorImg: "https://github.com/diegovester.png",
    },
    {
+      title: "MOMO Fall",
+      link: "../apps/MOMOfall/index.html",
+      coverImg: "./assets/appImages/MOMOfall.png",
+      author: "Diego Vester",
+      authorImg: "https://github.com/diegovester.png",
+   },
+   {
       title: "Box Fall",
       link: "../apps/box_fall/index.html",
       coverImg: "./assets/appImages/box_fall.png",

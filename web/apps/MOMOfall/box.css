@@ -1,0 +1,69 @@
+img {
+    max-width: 90%;
+    height: auto;
+}
+
+.area {
+    background: black;
+    width: 100%;
+    height:100vh;
+}
+
+.squares {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.squares li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    overflow: hidden;
+}
+
+.squares li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+    animation-duration: 4s;
+}
+
+.squares li:nth-child(2){
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0.1s;
+    animation-duration: 4s;
+}
+
+.squares li:nth-child(3){
+    left: 75%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0.2s;
+    animation-duration: 4s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(-1000px) rotate(0deg);
+        opacity: 1;
+    }
+
+    100%{
+        transform: translateY(0) rotate(720deg);
+        opacity: 1;
+    }
+
+}
