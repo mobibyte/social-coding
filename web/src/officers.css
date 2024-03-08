@@ -131,7 +131,7 @@ a:hover {
 }
 
 .card-devrat {
-   background-image: linear-gradient(210deg, #0538ff 13.4%, #5799f7 86.6%);
+   background-image: linear-gradient(60deg, #ff8c21 13.4%, #f5576e 86.6%);
    box-shadow: 2px 2px 5px black;
    max-width: 180px;
    text-align: center;
@@ -215,9 +215,9 @@ a:hover {
 
 .card-viraj {
    background-image: linear-gradient(60deg, #614385 13.4%, #314fa2 86.6%);
-   box-shadow: 2px 2px 5px black;
    max-width: 180px;
    text-align: center;
+   box-shadow: 2px 2px 5px black;
    margin: 15px;
    margin-top: 40px;
    border-radius: 30px;
@@ -293,4 +293,32 @@ a:hover {
    margin-bottom: 7px;
    justify-content: center;
    align-items: center;
+}
+
+.card-trevor {
+   background-image: linear-gradient(90deg, #3d73eb 13.4%, #de8fff 86.6%);
+   box-shadow: 2px 2px 5px black;
+   max-width: 180px;
+   text-align: center;
+   margin: 15px;
+   margin-left: 20px;
+   margin-top: 40px;
+   border-radius: 30px;
+   transition: 0.5s;
+   background-size: 150% auto;
+}
+
+.card-trevor h1 {
+   color: #fff;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+   font-family: Poppins;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   margin-top: 0px;
+}
+
+.card-trevor:hover {
+   background-position: right center;
 }
