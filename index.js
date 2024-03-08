@@ -1,4 +1,5 @@
 let apps = [
+
   {
     "title": "Diego's App",
     "link": "apps/diegovester/diego.html",
@@ -68,7 +69,6 @@ function newApp(app){
       </a>
     </div>
   </li>
-
     `;
 }
 function initApps(){

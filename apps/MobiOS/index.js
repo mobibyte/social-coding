@@ -2,6 +2,36 @@
 let users = JSON.parse(localStorage.getItem("users"));
 let authenticated = JSON.parse(localStorage.getItem("authenticated"));
 let newuser = {};
+let currentUser = -1;
+
+function existingUsers(users) {
+
+
+  let div = document.createElement('div');
+
+  let innerHTML = `<ul role="list" class="divide-y w-32 divide-gray-200" style="position: absolute; top: 25%;">`
+
+  users.map((user, idx) => {
+    let li = `
+            <li class="py-4" id="${idx}" style="top: 50%">
+              <div class="min-w-0 flex justify-center">
+                <span class="inline-block h-6 w-6 overflow-hidden rounded-full bg-gray-100">
+                  <svg class="h-full w-full text-gray-300" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M24 20.993V24H0v-2.996A14.977 14.977 0 0112.004 15c4.904 0 9.26 2.354 11.996 5.993zM16.002 8.999a4 4 0 11-8 0 4 4 0 018 0z" />
+                  </svg>
+                </span>
+                <p style="align-self: center;" class="ml-4 text-sm font-medium text-gray-900">${user.username}</p>
+              </div>
+            </li>
+        `
+    innerHTML += li;
+  });
+
+  innerHTML += `</ul>`
+  div.innerHTML = innerHTML;
+  return div;
+}
+
 function LogInComponent() {
 
     let credentials = {};
@@ -49,6 +79,7 @@ function LogInComponent() {
 
     return div;
 }
+
 function NewUserComponent(newuser) {
 
     
@@ -114,8 +145,6 @@ function NewUserComponent(newuser) {
                             <div id="verifyDiv">
                                 <label for="confirm-password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Confirm password</label>
                             </div>
-                            
-                            
                         </div>
                     </div>
                 </div>
@@ -137,7 +166,10 @@ function NewUserComponent(newuser) {
 
 
 if(!authenticated && users != null){
-    document.body.appendChild(LogInComponent());
+
+    if(currentUser == -1) document.body.appendChild(existingUsers(users));
+    else document.body.appendChild(LogInComponent());
+
 }
 else if (!authenticated && users == null){
     NewUserComponent(newuser);
