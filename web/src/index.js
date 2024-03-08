@@ -211,6 +211,13 @@ let apps = [
       authorImg: "https://github.com/Eternal.png",
    },
    {
+      title: "uwuify",
+      link: "../apps/uwuify/index.html",
+      coverImg: "./assets/appImages/momo.jpeg",
+      author: "uwuify",
+      authorImg: "https://avatars.githubusercontent.com/u/122934670?v=4",
+   },
+   {
       title: "IDK",
       link: "../apps/SKO/idk.html",
       coverImg: "../apps/SKO/thumbnail.png",
