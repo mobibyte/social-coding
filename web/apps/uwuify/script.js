@@ -23,6 +23,6 @@ function uwuify(text) {
         }
     }
 
-    return result;
+    return result + " uwu!";
 }
 
