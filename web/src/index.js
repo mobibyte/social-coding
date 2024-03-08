@@ -14,13 +14,6 @@ let apps = [
       authorImg: "https://github.com/diegovester.png",
    },
    {
-      title: "",
-      link: "../apps/SKO/idk.html",
-      coverImg: "../apps/SKO/thumbnail.png",
-      author: "Andre",
-      authorImg: "",
-   },
-   {
       title: "Minion's Abode",
       link: "../apps/devrat/devrat.html",
       coverImg: "../apps/devrat/bg.jpg",
@@ -78,7 +71,7 @@ let apps = [
       author: "Srikeerthi",
       authorImg: "",
    },
-   
+
    {
       title: "Dog App",
       link: "../apps/dog_app/mobi.html",
@@ -101,7 +94,7 @@ let apps = [
       author: "Waseem",
       authorImg: "https://avatars.githubusercontent.com/u/69316929?v=4",
    },
-   
+
    {
       title: "MOMO Note",
       link: "https://momonote.mobi/",
@@ -154,7 +147,7 @@ let apps = [
    {
       title: "React Static Build",
       link: "../apps/react static/my-app/out/index.html",
-      coverImg:"./assets/appImages/momo.jpeg",
+      coverImg: "./assets/appImages/momo.jpeg",
       author: "Diego Vester",
       authorImg: "https://github.com/diegovester.png",
    },
@@ -216,7 +209,14 @@ let apps = [
       coverImg: "./assets/appImages/momo.jpeg",
       author: "Eternal",
       authorImg: "https://github.com/Eternal.png",
-   }
+   },
+   {
+      title: "IDK",
+      link: "../apps/SKO/idk.html",
+      coverImg: "../apps/SKO/thumbnail.png",
+      author: "Andre",
+      authorImg: "",
+   },
 ];
 
 function newApp(app) {
