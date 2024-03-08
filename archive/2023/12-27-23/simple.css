@@ -1,8 +1,0 @@
-@font-face {
-    font-family: "MOBI";
-    src: url("fonts/SpaceGrotesk-VariableFont_wght.ttf") format("truetype");
-}
-
-div {
-    font-family: MOBI;
-}

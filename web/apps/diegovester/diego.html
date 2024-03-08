@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego's Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="profile-container">
+        <img id="profile-pic" src="default-profile-pic.jpg" alt="Profile Picture">
+        <div id="profile-info">
+            <h1>Your Name</h1>
+            <p>Location: Your City, Country</p>
+            <p>About Me: Write something about yourself...</p>
+            <button id="customize-btn">Customize</button>
+            <form id="customize-form">
+                <label for="new-pic">Upload New Profile Picture:</label>
+                <input type="file" id="new-pic" accept="image/*">
+                <label for="new-name">New Name:</label>
+                <input type="text" id="new-name" placeholder="Enter Name">
+                <label for="new-location">New Location:</label>
+                <input type="text" id="new-location" placeholder="Enter Location">
+                <button id="save-btn">Save</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
