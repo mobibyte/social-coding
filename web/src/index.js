@@ -51,6 +51,13 @@ let apps = [
       authorImg: "./assets/appImages/coffee cat.png",
    },
    {
+      title: "Rotating Background",
+      link: "../apps/rotatingBackground/index.html",
+      coverImg: "../apps/rotatingBackground/Thumbnail.png",
+      author: "Betim Hodza",
+      authorImg: "./assets/appImages/coffee cat.png",
+   },
+   {
       title: "Base Converter",
       link: "../apps/base_convert/index.html",
       coverImg: "./assets/appImages/Baseconvert.png",
@@ -181,7 +188,6 @@ let apps = [
       authorImg:
          "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
    },
-
    {
       title: "Bob",
       link: "../apps/Bob/index.html",
