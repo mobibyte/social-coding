@@ -51,6 +51,13 @@ let apps = [
       authorImg: "./assets/appImages/coffee cat.png",
    },
    {
+      title: "Rotating Background",
+      link: "../apps/rotatingBackground/index.html",
+      coverImg: "../apps/rotatingBackground/Thumbnail.png",
+      author: "Betim Hodza",
+      authorImg: "./assets/appImages/coffee cat.png",
+   },
+   {
       title: "Base Converter",
       link: "../apps/base_convert/index.html",
       coverImg: "./assets/appImages/Baseconvert.png",
@@ -71,7 +78,7 @@ let apps = [
       author: "Srikeerthi",
       authorImg: "",
    },
-   
+
    {
       title: "Dog App",
       link: "../apps/dog_app/mobi.html",
@@ -94,7 +101,7 @@ let apps = [
       author: "Waseem",
       authorImg: "https://avatars.githubusercontent.com/u/69316929?v=4",
    },
-   
+
    {
       title: "MOMO Note",
       link: "https://momonote.mobi/",
@@ -147,7 +154,7 @@ let apps = [
    {
       title: "React Static Build",
       link: "../apps/react static/my-app/out/index.html",
-      coverImg:"./assets/appImages/momo.jpeg",
+      coverImg: "./assets/appImages/momo.jpeg",
       author: "Diego Vester",
       authorImg: "https://github.com/diegovester.png",
    },
@@ -181,7 +188,6 @@ let apps = [
       authorImg:
          "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
    },
-
    {
       title: "Bob",
       link: "../apps/Bob/index.html",
@@ -209,7 +215,21 @@ let apps = [
       coverImg: "./assets/appImages/momo.jpeg",
       author: "Eternal",
       authorImg: "https://github.com/Eternal.png",
-   }
+   },
+   {
+      title: "uwuify",
+      link: "../apps/uwuify/index.html",
+      coverImg: "./assets/appImages/momo.jpeg",
+      author: "uwuify",
+      authorImg: "https://avatars.githubusercontent.com/u/122934670?v=4",
+   },
+   {
+      title: "IDK",
+      link: "../apps/SKO/idk.html",
+      coverImg: "../apps/SKO/thumbnail.png",
+      author: "Andre",
+      authorImg: "",
+   },
 ];
 
 function newApp(app) {
