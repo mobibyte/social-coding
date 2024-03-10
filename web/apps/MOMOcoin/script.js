@@ -122,7 +122,7 @@ const data = [
     coins: 2
   }, {
     name: "Duckie",
-    coins: 3
+    coins: -16
   },
   {
     name: "Ismael",
