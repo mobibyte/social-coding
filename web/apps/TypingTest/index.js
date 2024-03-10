@@ -5,11 +5,13 @@ let words = [];
 let idx = [];
 
 
+
 async function getQuote(){
   let response = await fetch("https://api.quotable.io/quotes/random");
   let quote = await response.json();
   return quote[0].content 
 }
+
 
 inputElement.addEventListener("input", e => {
   let char = e.data;
