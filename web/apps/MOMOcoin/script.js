@@ -116,13 +116,13 @@ const data = [
   },
    {
     name: "Devrat",
-    coins: 4
+    coins: 19
   }, {
     name: "Diego",
     coins: 2
   }, {
     name: "Duckie",
-    coins: 3
+    coins: -16
   },
   {
     name: "Ismael",
