@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+   background-color: hsl(0, 0%, 15%);
+   font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+#card-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+}
+
+#icons {
+   margin: 5px;
+   margin-bottom: 20px;
+}
+
+.card {
+   background-image: linear-gradient(90deg, #3d73eb 13.4%, #de8fff 86.6%);
+   box-shadow: 2px 2px 5px black;
+   max-width: 180px;
+   text-align: center;
+   margin: 15px;
+   margin-top: 40px;
+   border-radius: 30px;
+   transition: 0.5s;
+   background-size: 150% auto;
+   min-height: auto;
+}
+
+.Role {
+   margin-top: 0px;
+   color: rgb(230, 230, 230);
+   font-size: 11px;
+}
+hr {
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-bottom: 7px;
+   border: 1px solid hsla(0, 0%, 0%, 0.2);
+}
+
+.about {
+   margin-top: 0px;
+   color: #fff;
+   text-align: center;
+   font-family: Poppins;
+   font-size: 10px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   padding-left: 17px;
+   padding-right: 17px;
+   margin-bottom: 7px;
+   justify-content: center;
+   align-items: center;
+}
+
+.card h1 {
+   color: #fff;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+   font-family: Poppins;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   margin-top: 0px;
+}
+
+p {
+   color: white;
+}
+
+a {
+   text-decoration: none;
+   font-size: 22px;
+   color: white;
+}
+
+a:hover {
+   opacity: 0.7;
+}
+
+.card:hover {
+   background-position: right center;
+}
+
+.navbar {
+   background-color: hsl(0, 0%, 8%);
+   color: white;
+   padding: 1rem;
+   font-size: 20px;
+   font-weight: bold;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   display: flex;
+}
+
+.navbargradient {
+   position: relative;
+   background: linear-gradient(90deg, #3d73eb 13.4%, #de8fff 86.6%);
+   padding-bottom: 10px;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+
+.title {
+   padding: 20px;
+   margin-top: 20px;
+   align-items: center;
+   text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+   color: white;
+}
+
+.title hr {
+   margin-left: 15px;
+   margin-right: 15px;
+   margin-top: 5px;
+   border: 1.5px solid hsla(0, 0%, 9%, 0.4);
+}
+
+.card-devrat {
+   background-image: linear-gradient(60deg, #ff8c21 13.4%, #f5576e 86.6%);
+   box-shadow: 2px 2px 5px black;
+   max-width: 180px;
+   text-align: center;
+   margin: 15px;
+   margin-top: 40px;
+   border-radius: 30px;
+   transition: 0.5s;
+   background-size: 150% auto;
+   min-height: auto;
+}
+
+.card-devrat h1 {
+   color: #fff;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+   font-family: Poppins;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   margin-top: 0px;
+}
+
+.card-devrat:hover {
+   background-position: right center;
+}
+
+.card-ayden {
+   background-image: linear-gradient(90deg, #3d73eb 13.4%, #de8fff 86.6%);
+   box-shadow: 2px 2px 5px black;
+   max-width: 180px;
+   text-align: center;
+   margin: 15px;
+   margin-top: 40px;
+   border-radius: 30px;
+   transition: 0.5s;
+   background-size: 150% auto;
+}
+
+.card-ayden h1 {
+   color: #fff;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+   font-family: Poppins;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   margin-top: 0px;
+}
+
+.card-ayden:hover {
+   background-position: right center;
+}
+
+.card-diego {
+   background-image: linear-gradient(60deg, #00b6cf 13.4%, #0037ff 86.6%);
+   box-shadow: 2px 2px 5px black;
+   max-width: 180px;
+   text-align: center;
+   margin: 15px;
+   margin-left: 20px;
+   margin-top: 40px;
+   border-radius: 30px;
+   transition: 0.5s;
+   background-size: 150% auto;
+}
+
+.card-diego h1 {
+   color: #fff;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+   font-family: Poppins;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   margin-top: 0px;
+}
+
+.card-diego:hover {
+   background-position: right center;
+}
+
+.card-viraj {
+   background-image: linear-gradient(60deg, #614385 13.4%, #314fa2 86.6%);
+   max-width: 180px;
+   text-align: center;
+   box-shadow: 2px 2px 5px black;
+   margin: 15px;
+   margin-top: 40px;
+   border-radius: 30px;
+   transition: 0.5s;
+   background-size: 150% auto;
+}
+
+.card-viraj h1 {
+   color: #fff;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+   font-family: Poppins;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   margin-top: 0px;
+}
+
+.card-viraj:hover {
+   background-position: right center;
+}
+
+.about-viraj {
+   margin-top: 0px;
+   color: #fff;
+   text-align: center;
+   font-family: Poppins;
+   font-size: 8.5px;
+   padding-left: 17px;
+   padding-right: 17px;
+   margin-top: 14px;
+   margin-bottom: 7px;
+   justify-content: center;
+   align-items: center;
+}
+
+.card-ashley {
+   background-image: linear-gradient(60deg, #614385 13.4%, #314fa2 86.6%);
+   box-shadow: 2px 2px 5px black;
+   max-width: 180px;
+   text-align: center;
+   margin: 15px;
+   margin-top: 40px;
+   border-radius: 30px;
+   transition: 0.5s;
+   background-size: 150% auto;
+}
+
+.card-ashley h1 {
+   color: #fff;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+   font-family: Poppins;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   margin-top: 0px;
+}
+
+.card-ashley:hover {
+   background-position: right center;
+}
+
+.about-ashley {
+   margin-top: 0px;
+   color: #fff;
+   text-align: center;
+   font-family: Poppins;
+   font-size: 8.5px;
+   padding-left: 17px;
+   padding-right: 17px;
+   margin-top: 14px;
+   margin-bottom: 7px;
+   justify-content: center;
+   align-items: center;
+}
+
+.card-trevor {
+   background-image: linear-gradient(90deg, #3d73eb 13.4%, #de8fff 86.6%);
+   box-shadow: 2px 2px 5px black;
+   max-width: 180px;
+   text-align: center;
+   margin: 15px;
+   margin-left: 20px;
+   margin-top: 40px;
+   border-radius: 30px;
+   transition: 0.5s;
+   background-size: 150% auto;
+}
+
+.card-trevor h1 {
+   color: #fff;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+   font-family: Poppins;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   margin-top: 0px;
+}
+
+.card-trevor:hover {
+   background-position: right center;
+}

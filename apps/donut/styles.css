@@ -1,0 +1,23 @@
+
+body {
+    font-family:  Arial, sans-serif;
+    background-color:rgb(24, 123, 134);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: azure;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.donut-container
+{
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}

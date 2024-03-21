@@ -1,0 +1,105 @@
+@keyframes color {
+    0%   { background: #250731; }
+    20%  { background: #0d0b41; }
+    40%  { background: #0a2333; }
+    60%  { background: #390a3b; }
+    80%  { background: #2b1406; }
+    100% { background: #081f3d; }
+  }
+
+
+body {
+    background: #27425e;
+    animation: color 30s infinite linear;
+  }
+
+  h1{
+    color: white;
+  }
+  
+  .scene {
+    width: 600px;
+    height: 250px;
+    margin: 18em auto;
+    perspective: 600px;
+  }
+  
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    transform-style: flat;
+    transform: rotateY(0) translateZ(0);
+  }
+  
+  .tunnel {
+    position: relative;
+    scale: 1000px;
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    transform-style: flat;
+    animation: spin 20s infinite linear;
+  }
+  
+  .ring {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 10px;
+    border-style: dotted;
+    border-radius: 90%;
+    transform-origin: 50% 50%;
+    color: #8df435;
+    transform: translateY(-200px);
+    -webkit-filter: blur(0.5125px);
+  }
+  
+  .ring:nth-child(1) {
+    color: #ff4800;
+    transform: rotateZ(36deg) translateY(-200px);
+  }
+  .ring:nth-child(2) {
+    color: #ffa047;
+    transform: rotateZ(72deg) translateY(-200px);
+  }
+  .ring:nth-child(3) {
+    color: #e0de58;
+    transform: rotateZ(108deg) translateY(-200px);
+  }
+  .ring:nth-child(4) {
+    color: #5dfa4f;
+    transform: rotateZ(144deg) translateY(-200px);
+  }
+  .ring:nth-child(5) {
+    color: #3af0c9;
+    transform: rotateZ(180deg) translateY(-200px);
+  }
+  .ring:nth-child(6) {
+    color: #373af8;
+    transform: rotateZ(216deg) translateY(-200px);
+  }
+  .ring:nth-child(7) {
+    color: #8d2aff;
+    transform: rotateZ(252deg) translateY(-200px);
+  }
+  .ring:nth-child(8) {
+    color: #ec69fd;
+    transform: rotateZ(288deg) translateY(-200px);
+  }
+  .ring:nth-child(9) {
+    color: #ff67eb;
+    transform: rotateZ(324deg) translateY(-200px);
+  }
+  .ring:nth-child(10) {
+    color: #ff3064;
+    transform: rotateZ(360deg) translateY(-200px);
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotateZ(180deg)
+    }
+  }
+  
