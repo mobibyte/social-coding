@@ -1,0 +1,65 @@
+body {
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #171717;
+}
+
+.main {
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.input-row input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: large;
+}
+
+#shorten, #copy {
+    width: 100px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-color: purple;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+#shorten:hover, #copy:hover {
+    background-color: #4b0082;
+    cursor: pointer;
+}
+
+.main p {
+    margin-top: 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+#long_url, #short_url {
+    margin: 10px;
+    width: 80%;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: medium;
+}

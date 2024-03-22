@@ -36,4 +36,4 @@ We'll show you how to do that now.
 
 # Clone  
 
-
+Install [GitHub Desktop](https://desktop.github.com/)
