@@ -230,6 +230,13 @@ let apps = [
       author: "Andre",
       authorImg: "",
    },
+   {
+      title: "Vue Example",
+      link: "../apps/vue/index.html",
+      coverImg: "../apps/vue/thumbnail.png",
+      author: "Diego Vester",
+      authorImg: "https://github.com/diegovester.png",
+   }
 ];
 
 function newApp(app) {
