@@ -7,6 +7,13 @@ let apps = [
       authorImg: "../apps/time-till-new-year/kevin_minion.png",
    },
    {
+      title: "CSEC Bake Sale",
+      link: "../apps/bake sale/index.html",
+      coverImg: "../apps/bake sale/thumbnail.png",
+      author: "Diego Vester",
+      authorImg: "https://github.com/diegovester.png",
+   },
+   {
       title: "MOMO Coin",
       link: "../apps/MOMOcoin/index.html",
       coverImg: "../apps/MOMOcoin/thumbnail.png",
@@ -230,6 +237,13 @@ let apps = [
       author: "Andre",
       authorImg: "",
    },
+   {
+      title: "Vue Example",
+      link: "../apps/vue/index.html",
+      coverImg: "../apps/vue/thumbnail.png",
+      author: "Diego Vester",
+      authorImg: "https://github.com/diegovester.png",
+   }
 ];
 
 function newApp(app) {
