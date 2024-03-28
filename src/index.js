@@ -210,9 +210,9 @@ let apps = [
       authorImg: "https://github.com/Caitxys.png",
    },
    {
-      title: "Eternal",
-      link: "../apps/Eternal/index.html",
-      coverImg: "./assets/appImages/momo.jpeg",
+      title: "Lift Yourself",
+      link: "../apps/Eternal/YeSite.html",
+      coverImg: "./assets/Eternal/momo.jpeg",
       author: "Eternal",
       authorImg: "https://github.com/Eternal.png",
    },
