@@ -14,6 +14,13 @@ let apps = [
       authorImg: "https://avatars.githubusercontent.com/u/65474436?v=4",
    },
    {
+      title: "Rock Paper Scissors",
+      link: "../apps/rock-paper-scissors/index.html",
+      coverImg: "../apps/rock-paper-scissors/thumbnail.png",
+      author: "Marshal",
+      authorImg: "https://github.com/MarshalMarks.png",
+   },
+   {
       title: "MOMO Coin",
       link: "../apps/MOMOcoin/index.html",
       coverImg: "../apps/MOMOcoin/thumbnail.png",
