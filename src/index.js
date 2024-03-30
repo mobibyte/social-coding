@@ -7,11 +7,11 @@ let apps = [
       authorImg: "../apps/time-till-new-year/kevin_minion.png",
    },
    {
-      title: "CSEC Bake Sale",
-      link: "../apps/bake sale/index.html",
-      coverImg: "../apps/bake sale/thumbnail.png",
-      author: "Diego Vester",
-      authorImg: "https://github.com/diegovester.png",
+      title: "Mobi Mail",
+      link: "https://mobi-mail.vercel.app/",
+      coverImg: "./assets/appImages/mobimailpreview.png",
+      author: "Rodrigo Munoz",
+      authorImg: "https://avatars.githubusercontent.com/u/65474436?v=4",
    },
    {
       title: "MOMO Coin",
@@ -217,11 +217,11 @@ let apps = [
       authorImg: "https://github.com/Caitxys.png",
    },
    {
-      title: "Eternal",
-      link: "../apps/Eternal/index.html",
-      coverImg: "./assets/appImages/momo.jpeg",
+      title: "Lift Yourself",
+      link: "../apps/Eternal/YeSite.html",
+      coverImg: "./assets/appImages/YeStare.jpg",
       author: "Eternal",
-      authorImg: "https://github.com/Eternal.png",
+      authorImg: "https://avatars.githubusercontent.com/u/113961067?s=96&v=4",
    },
    {
       title: "uwuify",
@@ -245,12 +245,12 @@ let apps = [
       authorImg: "https://github.com/diegovester.png",
    },
    {
-      title: "Mobi Mail",
-      link: "https://mobi-mail.vercel.app/",
-      coverImg: "./assets/appImages/mobimailpreview.png",
-      author: "Rodrigo Munoz",
-      authorImg: "https://avatars.githubusercontent.com/u/65474436?v=4",
-   },
+      title: "Creative Beast",
+      link: "../apps/creativebeast/index.html",
+      coverImg: "./assets/appImages/momo.jpeg",
+      author: "Jayman",
+      authorImg: "https://github.com/jay-creative.png",
+   }
 ];
 
 function newApp(app) {
