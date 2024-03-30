@@ -17,7 +17,7 @@ let apps = [
       title: "Rock Paper Scissors",
       link: "../apps/rock-paper-scissors/index.html",
       coverImg: "../apps/rock-paper-scissors/thumbnail.png",
-      author: "Marshal",
+      author: "Clay Marks",
       authorImg: "https://github.com/MarshalMarks.png",
    },
    {
