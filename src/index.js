@@ -7,6 +7,13 @@ let apps = [
       authorImg: "../apps/time-till-new-year/kevin_minion.png",
    },
    {
+      title: "Mobi Mail",
+      link: "https://mobi-mail.vercel.app/",
+      coverImg: "./assets/appImages/mobimailpreview.png",
+      author: "Rodrigo Munoz",
+      authorImg: "https://avatars.githubusercontent.com/u/65474436?v=4",
+   },
+   {
       title: "MOMO Coin",
       link: "../apps/MOMOcoin/index.html",
       coverImg: "../apps/MOMOcoin/thumbnail.png",
@@ -243,7 +250,7 @@ let apps = [
       coverImg: "./assets/appImages/momo.jpeg",
       author: "Jayman",
       authorImg: "https://github.com/jay-creative.png",
-   },
+   }
 ];
 
 function newApp(app) {
