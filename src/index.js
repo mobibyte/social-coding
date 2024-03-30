@@ -243,7 +243,14 @@ let apps = [
       coverImg: "../apps/vue/thumbnail.png",
       author: "Diego Vester",
       authorImg: "https://github.com/diegovester.png",
-   }
+   },
+   {
+      title: "Mobi Mail",
+      link: "https://mobi-mail.vercel.app/",
+      coverImg: "./assets/appImages/mobimailpreview.png",
+      author: "Rodrigo Munoz",
+      authorImg: "https://avatars.githubusercontent.com/u/65474436?v=4",
+   },
 ];
 
 function newApp(app) {
