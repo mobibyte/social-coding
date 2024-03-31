@@ -9,7 +9,7 @@ body {
     width:20%;
     height:60%;
     border-style: solid;
-    border-width: 50%;
+    border-width: thick;
     border-color: white;
 }
 
@@ -21,4 +21,31 @@ h1 {
 p {
     text-align: center;
     color: white;
+}
+
+.link-main {
+    text-align: center;
+}
+
+a:link, a:visited {
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+    border-width: medium;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover {
+    color:white;
+    background-color: gray;
+    text-decoration: underline;
+}
+a:active {
+    color: brown;
+    background-color: white;
+    text-decoration: underline;
 }
