@@ -61,7 +61,7 @@ body {
    list-style: none;
    width: 20px;
    height: 20px;
-   background: rgba(255, 255, 255, 0.2);
+   background: rgba(0, 145, 255, 0.302);
    animation: animate 19s linear infinite;
 }
 
@@ -179,9 +179,11 @@ body {
    margin-left: auto;
    margin-right: auto;
    margin-top: 50px;
-   max-width: 700px;
+   max-width: 1000px;
+   margin-left: 50px;
+   margin-right: 50px;
    overflow: hidden;
-   backdrop-filter: blur(5px);
+   backdrop-filter: blur(10px);
    border-radius: 20px;
 }
 .content {
@@ -197,4 +199,33 @@ body {
 .content p {
    margin-top: 10px;
    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.frame {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 15px;
+   margin: 20px;
+   margin-left: 50px;
+   margin-right: 50px;
+   border: 2px solid white;
+   border-radius: 20px;
+   backdrop-filter: blur(10px);
+}
+
+.calendar {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   margin-top: 50px;
+   margin-bottom: 20px;
+   max-width: 1000px;
+   border: 2px solid white;
+   border-radius: 20px;
+   margin-left: 50px;
+   margin-right: 50px;
+   padding: 5px;
+   backdrop-filter: blur(10px);
 }
