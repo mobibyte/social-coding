@@ -231,6 +231,13 @@ let apps = [
       authorImg: "https://avatars.githubusercontent.com/u/113961067?s=96&v=4",
    },
    {
+      title: "CIA",
+      link: "../apps/nugget/index.html",
+      coverImg: "./assets/appImages/CIA_Banner.jpeg",
+      author: "Ozi",
+      authorImg: "https://avatars.githubusercontent.com/u/160977990?v=4",
+   },
+   {
       title: "uwuify",
       link: "../apps/uwuify/index.html",
       coverImg: "./assets/appImages/momo.jpeg",

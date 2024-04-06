@@ -148,12 +148,12 @@ let apps = [
     authorImg: "https://github.com/Eternal.png"
   },
   {
-    title: "OziDoziApp",
-    link: "../apps/NoziOzi/index.html",
-    coverImg: "../apps/NoziOzi/thumbnail.png",
-    author: "NoziOzi",
-    authorImg: "https://github.com/NoziOzi.png"
-  }
+    title: "CIA",
+    link: "../apps/nugget/index.html",
+    coverImg: "../apps/nugget/thumbnail.png",
+    author: "Ozi",
+    authorImg: "https://github.com/ozidozi.png"
+  },
 ];
 
 function newApp(app) {
