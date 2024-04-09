@@ -7,6 +7,20 @@ let apps = [
       authorImg: "../apps/time-till-new-year/kevin_minion.png",
    },
    {
+      title: "Mobi Mail",
+      link: "https://mobi-mail.vercel.app/",
+      coverImg: "./assets/appImages/mobimailpreview.png",
+      author: "Rodrigo Munoz",
+      authorImg: "https://avatars.githubusercontent.com/u/65474436?v=4",
+   },
+   {
+      title: "Rock Paper Scissors",
+      link: "../apps/rock-paper-scissors/index.html",
+      coverImg: "../apps/rock-paper-scissors/thumbnail.png",
+      author: "Clay Marks",
+      authorImg: "https://github.com/MarshalMarks.png",
+   },
+   {
       title: "MOMO Coin",
       link: "../apps/MOMOcoin/index.html",
       coverImg: "../apps/MOMOcoin/thumbnail.png",
@@ -217,6 +231,13 @@ let apps = [
       authorImg: "https://avatars.githubusercontent.com/u/113961067?s=96&v=4",
    },
    {
+      title: "CIA",
+      link: "../apps/nugget/index.html",
+      coverImg: "./assets/appImages/CIA_Banner.jpeg",
+      author: "Ozi",
+      authorImg: "https://avatars.githubusercontent.com/u/160977990?v=4",
+   },
+   {
       title: "uwuify",
       link: "../apps/uwuify/index.html",
       coverImg: "./assets/appImages/momo.jpeg",
@@ -230,6 +251,20 @@ let apps = [
       author: "Andre",
       authorImg: "",
    },
+   {
+      title: "Vue Example",
+      link: "../apps/vue/index.html",
+      coverImg: "../apps/vue/thumbnail.png",
+      author: "Diego Vester",
+      authorImg: "https://github.com/diegovester.png",
+   },
+   {
+      title: "Creative Beast",
+      link: "../apps/creativebeast/index.html",
+      coverImg: "./assets/appImages/momo.jpeg",
+      author: "Jayman",
+      authorImg: "https://github.com/jay-creative.png",
+   }
 ];
 
 function newApp(app) {

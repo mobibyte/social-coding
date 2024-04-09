@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <script src="https://kit.fontawesome.com/c6813fce5b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div id="currentGame">
+        <div id="gameContent">
+            <div id="canvasWrapper">
+                <div id="playSpace">
+                    <img id="computerIcon" src=""/>
+                    <img id="playerIcon" src=""/>
+                </div>
+                <div id="controls">
+                    <button onclick="evaluateMatch(rock)" id="buttonRock">Rock</button>
+                    <button onclick="evaluateMatch(paper)" id="buttonPaper">Paper</button>
+                    <button onclick="evaluateMatch(scissors)" id="buttonScissors">Scissors</button>
+                </div>
+            </div>
+            <div id="scoreBar">
+                <p>Score</p>
+                <div id="score1"></div>
+                <div id="score2"></div>
+                <div id="score3"></div>
+                <div id="score4"></div>
+                <div id="score5"></div>
+            </div>
+        </div>
+        <div id="footerWrapper">
+            <h4 id="message">[Message]</h4>
+            <button onclick="newGame()" id="newGameButton">Play Again?</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
