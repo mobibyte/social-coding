@@ -27,6 +27,13 @@ p {
     text-align: center;
 }
 
+.audio-main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
 a:link, a:visited {
     background-color: black;
     border-style: solid;
